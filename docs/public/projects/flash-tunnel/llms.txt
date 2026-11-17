@@ -3,7 +3,7 @@
 Canonical project page: https://projects.imba97.dev/projects/flash-tunnel/
 GitHub: https://github.com/flash-tunnel/flash-tunnel
 Documentation: https://flash-tunnel.imba97.dev
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [flash-tunnel — project overview](https://projects.imba97.dev/projects/flash-tunnel/): A developer tool for exposing local services through a public preview tunnel.

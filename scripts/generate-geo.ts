@@ -97,9 +97,9 @@ async function build() {
   }
   pages.sort((a, b) => a.url.localeCompare(b.url))
   const projects = [
-    { id: 'initx', name: 'initx', category: 'Node.js CLI', url: `${siteUrl}/projects/initx/`, llms: `${siteUrl}/projects/initx/llms.txt`, description: 'A plugin-powered scripting engine for repeatable developer tasks.', repository: 'https://github.com/initx-collective/initx', status: 'active', lastVerified: '2026-11-17' },
-    { id: 'mail-peon', name: 'Mail Peon', category: 'Browser extension', url: `${siteUrl}/projects/mail-peon/`, llms: `${siteUrl}/projects/mail-peon/llms.txt`, description: 'A local-first AI mail assistant for important mail and verification codes.', repository: 'https://github.com/mail-peon/mail-peon', status: 'active', lastVerified: '2026-11-17' },
-    { id: 'cargo-bumpp', name: 'cargo-bumpp', category: 'Rust CLI', url: `${siteUrl}/projects/cargo-bumpp/`, llms: `${siteUrl}/projects/cargo-bumpp/llms.txt`, description: 'An interactive, zero-dependency release version bumping tool for Cargo projects.', repository: 'https://github.com/imba97/cargo-bumpp', status: 'active', lastVerified: '2026-11-17' },
+    { id: 'initx', name: 'initx', category: 'Node.js CLI', url: `${siteUrl}/projects/initx/`, llms: `${siteUrl}/projects/initx/llms.txt`, description: 'A plugin-powered scripting engine for repeatable developer tasks.', repository: 'https://github.com/initx-collective/initx', status: 'documented', lastVerified: '2026-11-17' },
+    { id: 'mail-peon', name: 'Mail Peon', category: 'Browser extension', url: `${siteUrl}/projects/mail-peon/`, llms: `${siteUrl}/projects/mail-peon/llms.txt`, description: 'A local-first AI mail assistant for important mail and verification codes.', repository: 'https://github.com/mail-peon/mail-peon', status: 'documented', lastVerified: '2026-11-17' },
+    { id: 'cargo-bumpp', name: 'cargo-bumpp', category: 'Rust CLI', url: `${siteUrl}/projects/cargo-bumpp/`, llms: `${siteUrl}/projects/cargo-bumpp/llms.txt`, description: 'An interactive, zero-dependency release version bumping tool for Cargo projects.', repository: 'https://github.com/imba97/cargo-bumpp', status: 'documented', lastVerified: '2026-11-17' },
     ...projectCandidates.map(project => ({
       id: project.id,
       name: project.name,
@@ -109,10 +109,10 @@ async function build() {
       description: project.description,
       repository: project.repo,
       documentation: project.docsUrl || '',
-      status: 'documented candidate',
+      status: 'documented',
       lastVerified: '2026-11-17'
     }))
-  ]
+  ].sort((a, b) => a.id.localeCompare(b.id))
 
   const projectDocs = (language, project) => pages
     .filter(page => page.lang === language && page.project === project.id)
@@ -199,7 +199,7 @@ async function build() {
   const summary = {
     name: 'Imba97 Projects',
     url: siteUrl,
-    description: 'Independent, high-context documentation sets for Imba97 projects, with English as the default language and Chinese translations under /zh/.',
+    description: 'High-context documentation sets for Imba97 projects, with English as the default language and Chinese translations under /zh/.',
     author: AUTHOR,
     defaultLanguage: 'en',
     languages: ['en', 'zh-CN'],

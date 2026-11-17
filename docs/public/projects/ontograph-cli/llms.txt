@@ -2,7 +2,7 @@
 > An entity-relationship knowledge graph CLI for adding entities, relating them, and querying the graph.
 Canonical project page: https://projects.imba97.dev/projects/ontograph-cli/
 GitHub: https://github.com/imba97/ontograph-cli
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [ontograph-cli — project overview](https://projects.imba97.dev/projects/ontograph-cli/): An entity-relationship knowledge graph CLI for adding entities, relating them, and querying the graph.

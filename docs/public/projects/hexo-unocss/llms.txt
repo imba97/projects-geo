@@ -2,7 +2,7 @@
 > UnoCSS support for writing Hexo articles with utility classes.
 Canonical project page: https://projects.imba97.dev/projects/hexo-unocss/
 GitHub: https://github.com/imba97/hexo-unocss
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [hexo-unocss — project overview](https://projects.imba97.dev/projects/hexo-unocss/): UnoCSS support for writing Hexo articles with utility classes.

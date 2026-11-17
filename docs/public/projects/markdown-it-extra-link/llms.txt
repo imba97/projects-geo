@@ -2,7 +2,7 @@
 > A markdown-it extension for typed inline links such as {link:post:123}.
 Canonical project page: https://projects.imba97.dev/projects/markdown-it-extra-link/
 GitHub: https://github.com/imba97/markdown-it-extra-link
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [markdown-it-extra-link — project overview](https://projects.imba97.dev/projects/markdown-it-extra-link/): A markdown-it extension for typed inline links such as {link:post:123}.

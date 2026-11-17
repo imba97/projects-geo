@@ -2,7 +2,7 @@
 > A HarmonyOS music client compatible with SonicAPI and Subsonic servers such as Navidrome.
 Canonical project page: https://projects.imba97.dev/projects/sonar/
 GitHub: https://github.com/imba97/sonar
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [Sonar — project overview](https://projects.imba97.dev/projects/sonar/): A HarmonyOS music client compatible with SonicAPI and Subsonic servers such as Navidrome.

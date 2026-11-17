@@ -2,7 +2,7 @@
 > A tiny Rust overlay that lets AI agents mark screen regions with labels so users know where to click.
 Canonical project page: https://projects.imba97.dev/projects/spotlight/
 GitHub: https://github.com/imba97/spotlight
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [spotlight — project overview](https://projects.imba97.dev/projects/spotlight/): A tiny Rust overlay that lets AI agents mark screen regions with labels so users know where to click.

@@ -2,7 +2,7 @@
 > A reactive file-system context library for seamless cross-process data sharing.
 Canonical project page: https://projects.imba97.dev/projects/fs-ctx/
 GitHub: https://github.com/imba97/fs-ctx
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [fs-ctx — project overview](https://projects.imba97.dev/projects/fs-ctx/): A reactive file-system context library for seamless cross-process data sharing.

@@ -2,7 +2,7 @@
 > A local-first AI mail assistant for important mail and verification codes.
 Canonical project page: https://projects.imba97.dev/projects/mail-peon/
 GitHub: https://github.com/mail-peon/mail-peon
-Status: active
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [Mail Peon — local-first AI mail assistant](https://projects.imba97.dev/projects/mail-peon/): Mail Peon is a Chrome and Firefox Manifest V3 extension that surfaces important mail and auto-copies verification codes.

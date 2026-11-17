@@ -1,3 +1,5 @@
+import { readdirSync, readFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { defineConfig } from 'vitepress'
 import { projectCandidates } from '../../scripts/project-candidates.ts'
 
@@ -19,27 +21,65 @@ const zhNav = [
   { text: 'GitHub', link: 'https://github.com/imba97' }
 ]
 
-const candidateEnGroups = projectCandidates.map(project => ({
-  text: project.name,
-  collapsed: true,
-  items: [
-    { text: 'Overview', link: `/projects/${project.id}/` },
-    { text: 'Getting started', link: `/projects/${project.id}/getting-started` },
-    { text: 'Architecture', link: `/projects/${project.id}/architecture` },
-    { text: 'FAQ', link: `/projects/${project.id}/faq` }
-  ]
-}))
+const pageLabels = {
+  en: {
+    index: 'Overview',
+    'getting-started': 'Getting started',
+    architecture: 'Architecture',
+    reference: 'Reference',
+    'plugin-authoring': 'Plugin authoring',
+    'design-decisions': 'Design decisions',
+    troubleshooting: 'Troubleshooting',
+    privacy: 'Privacy and security',
+    'providers-and-sync': 'Providers and sync',
+    'workspace-and-rollback': 'Workspace and rollback',
+    'ci-and-release': 'CI and release',
+    faq: 'FAQ'
+  },
+  zh: {
+    index: '总览',
+    'getting-started': '快速开始',
+    architecture: '架构',
+    reference: '参考手册',
+    'plugin-authoring': '插件开发',
+    'design-decisions': '设计决策',
+    troubleshooting: '故障排查',
+    privacy: '隐私与安全',
+    'providers-and-sync': '邮箱与同步',
+    'workspace-and-rollback': 'workspace 与回滚',
+    'ci-and-release': 'CI 与发布',
+    faq: 'FAQ'
+  }
+} as const
 
-const candidateZhGroups = projectCandidates.map(project => ({
-  text: project.name,
-  collapsed: true,
-  items: [
-    { text: '总览', link: `/zh/projects/${project.id}/` },
-    { text: '快速开始', link: `/zh/projects/${project.id}/getting-started` },
-    { text: '架构', link: `/zh/projects/${project.id}/architecture` },
-    { text: 'FAQ', link: `/zh/projects/${project.id}/faq` }
-  ]
-}))
+function projectTitle(directory: string, id: string): string {
+  const source = readFileSync(join(directory, 'index.md'), 'utf8')
+  return source.match(/^#\s+(.+)$/m)?.[1]?.trim() || id
+}
+
+function projectGroups(language: 'en' | 'zh') {
+  const prefix = language === 'zh' ? '/zh/' : '/'
+  const labels = pageLabels[language] as Record<string, string>
+  const directory = join(process.cwd(), 'docs', language === 'zh' ? 'zh/projects' : 'projects')
+  return readdirSync(directory, { withFileTypes: true })
+    .filter(entry => entry.isDirectory())
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map(entry => {
+      const projectDirectory = join(directory, entry.name)
+      const items = readdirSync(projectDirectory, { withFileTypes: true })
+        .filter(file => file.isFile() && file.name.endsWith('.md'))
+        .map(file => file.name.replace(/\.md$/, ''))
+        .sort((a, b) => (a === 'index' ? -1 : b === 'index' ? 1 : a.localeCompare(b)))
+        .map(page => ({
+          text: labels[page] || page,
+          link: page === 'index' ? `${prefix}projects/${entry.name}/` : `${prefix}projects/${entry.name}/${page}`
+        }))
+      return { text: projectTitle(projectDirectory, entry.name), collapsed: true, items }
+    })
+}
+
+const projectGroupsEn = projectGroups('en')
+const projectGroupsZh = projectGroups('zh')
 
 const projectMeta = new Map([
   ['initx', { repository: 'https://github.com/initx-collective/initx', programmingLanguage: 'TypeScript', license: 'MIT' }],
@@ -51,37 +91,7 @@ const projectMeta = new Map([
 const enSidebar = [
   { text: 'Projects', items: [
     { text: 'All projects', link: '/projects/' },
-    { text: 'initx', collapsed: true, items: [
-      { text: 'Overview', link: '/projects/initx/' },
-      { text: 'Getting started', link: '/projects/initx/getting-started' },
-      { text: 'Architecture', link: '/projects/initx/architecture' },
-      { text: 'Reference', link: '/projects/initx/reference' },
-      { text: 'Plugin authoring', link: '/projects/initx/plugin-authoring' },
-      { text: 'Design decisions', link: '/projects/initx/design-decisions' },
-      { text: 'Troubleshooting', link: '/projects/initx/troubleshooting' },
-      { text: 'FAQ', link: '/projects/initx/faq' }
-    ] },
-    { text: 'Mail Peon', collapsed: true, items: [
-      { text: 'Overview', link: '/projects/mail-peon/' },
-      { text: 'Getting started', link: '/projects/mail-peon/getting-started' },
-      { text: 'Architecture', link: '/projects/mail-peon/architecture' },
-      { text: 'Reference', link: '/projects/mail-peon/reference' },
-      { text: 'Privacy and security', link: '/projects/mail-peon/privacy' },
-      { text: 'Providers and sync', link: '/projects/mail-peon/providers-and-sync' },
-      { text: 'Troubleshooting', link: '/projects/mail-peon/troubleshooting' },
-      { text: 'FAQ', link: '/projects/mail-peon/faq' }
-    ] },
-    { text: 'cargo-bumpp', collapsed: true, items: [
-      { text: 'Overview', link: '/projects/cargo-bumpp/' },
-      { text: 'Getting started', link: '/projects/cargo-bumpp/getting-started' },
-      { text: 'Architecture', link: '/projects/cargo-bumpp/architecture' },
-      { text: 'Reference', link: '/projects/cargo-bumpp/reference' },
-      { text: 'Workspace and rollback', link: '/projects/cargo-bumpp/workspace-and-rollback' },
-      { text: 'CI and release', link: '/projects/cargo-bumpp/ci-and-release' },
-      { text: 'Troubleshooting', link: '/projects/cargo-bumpp/troubleshooting' },
-      { text: 'FAQ', link: '/projects/cargo-bumpp/faq' }
-    ] },
-    ...candidateEnGroups
+    ...projectGroupsEn
   ] },
   { text: 'Site guide', items: [
     { text: 'About the author', link: '/about/' },
@@ -92,37 +102,7 @@ const enSidebar = [
 const zhSidebar = [
   { text: '项目', items: [
     { text: '全部项目', link: '/zh/projects/' },
-    { text: 'initx', collapsed: true, items: [
-      { text: '总览', link: '/zh/projects/initx/' },
-      { text: '快速开始', link: '/zh/projects/initx/getting-started' },
-      { text: '架构', link: '/zh/projects/initx/architecture' },
-      { text: '参考手册', link: '/zh/projects/initx/reference' },
-      { text: '插件开发', link: '/zh/projects/initx/plugin-authoring' },
-      { text: '设计决策', link: '/zh/projects/initx/design-decisions' },
-      { text: '故障排查', link: '/zh/projects/initx/troubleshooting' },
-      { text: 'FAQ', link: '/zh/projects/initx/faq' }
-    ] },
-    { text: 'Mail Peon', collapsed: true, items: [
-      { text: '总览', link: '/zh/projects/mail-peon/' },
-      { text: '快速开始', link: '/zh/projects/mail-peon/getting-started' },
-      { text: '架构', link: '/zh/projects/mail-peon/architecture' },
-      { text: '参考手册', link: '/zh/projects/mail-peon/reference' },
-      { text: '隐私与安全', link: '/zh/projects/mail-peon/privacy' },
-      { text: '邮箱与同步', link: '/zh/projects/mail-peon/providers-and-sync' },
-      { text: '故障排查', link: '/zh/projects/mail-peon/troubleshooting' },
-      { text: 'FAQ', link: '/zh/projects/mail-peon/faq' }
-    ] },
-    { text: 'cargo-bumpp', collapsed: true, items: [
-      { text: '总览', link: '/zh/projects/cargo-bumpp/' },
-      { text: '快速开始', link: '/zh/projects/cargo-bumpp/getting-started' },
-      { text: '架构', link: '/zh/projects/cargo-bumpp/architecture' },
-      { text: '参考手册', link: '/zh/projects/cargo-bumpp/reference' },
-      { text: 'workspace 与回滚', link: '/zh/projects/cargo-bumpp/workspace-and-rollback' },
-      { text: 'CI 与发布', link: '/zh/projects/cargo-bumpp/ci-and-release' },
-      { text: '故障排查', link: '/zh/projects/cargo-bumpp/troubleshooting' },
-      { text: 'FAQ', link: '/zh/projects/cargo-bumpp/faq' }
-    ] },
-    ...candidateZhGroups
+    ...projectGroupsZh
   ] },
   { text: '站点说明', items: [
     { text: '作者介绍', link: '/zh/about/' },

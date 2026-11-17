@@ -2,7 +2,7 @@
 > A Cargo-based plugin system that installs cdylib plugins from crates.io and loads them at runtime.
 Canonical project page: https://projects.imba97.dev/projects/crate-plugin-kit/
 GitHub: https://github.com/imba97/crate-plugin-kit
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [crate-plugin-kit — project overview](https://projects.imba97.dev/projects/crate-plugin-kit/): A Cargo-based plugin system that installs cdylib plugins from crates.io and loads them at runtime.

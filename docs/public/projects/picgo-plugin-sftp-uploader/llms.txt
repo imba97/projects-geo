@@ -2,7 +2,7 @@
 > A PicGo uploader plugin for sending images through SFTP.
 Canonical project page: https://projects.imba97.dev/projects/picgo-plugin-sftp-uploader/
 GitHub: https://github.com/imba97/picgo-plugin-sftp-uploader
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [picgo-plugin-sftp-uploader — project overview](https://projects.imba97.dev/projects/picgo-plugin-sftp-uploader/): A PicGo uploader plugin for sending images through SFTP.

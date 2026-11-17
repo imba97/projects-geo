@@ -2,7 +2,7 @@
 > A language-agnostic trigger schema for defining events, conditions, and actions.
 Canonical project page: https://projects.imba97.dev/projects/triggerix/
 GitHub: https://github.com/triggerix-collective/triggerix
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [triggerix — project overview](https://projects.imba97.dev/projects/triggerix/): A language-agnostic trigger schema for defining events, conditions, and actions.

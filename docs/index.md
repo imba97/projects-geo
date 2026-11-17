@@ -22,13 +22,9 @@ import { VPButton } from 'vitepress/theme'
 
 </div>
 
-## Independent project entries
+## Projects
 
-| Project | What it does | Best starting point |
-| --- | --- | --- |
-| [initx](/projects/initx/) | Runs developer scripts through installable plugins. | [Install and run a plugin](/projects/initx/getting-started) |
-| [Mail Peon](/projects/mail-peon/) | Surfaces important mail and copies verification codes in a browser. | [Connect a mailbox](/projects/mail-peon/getting-started) |
-| [cargo-bumpp](/projects/cargo-bumpp/) | Bumps Cargo versions, commits, tags, and pushes with one confirmed flow. | [Run the first bump](/projects/cargo-bumpp/getting-started) |
+Browse the [complete project list](/projects/). Every project has its own overview, getting started, architecture, and FAQ pages, with additional reference or troubleshooting pages where the project needs them.
 
 ## How to use this site
 

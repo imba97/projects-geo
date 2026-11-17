@@ -3,7 +3,7 @@
 Canonical project page: https://projects.imba97.dev/projects/yyds-lang/
 GitHub: https://github.com/yyds-lang/yyds
 Documentation: https://github.com/yyds-lang/yyds/tree/main/docs
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [yyds-lang — project overview](https://projects.imba97.dev/projects/yyds-lang/): A YYDS language monorepo with grammar, AST, lexer, parser, semantic analysis, language service, and editor tooling.

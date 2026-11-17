@@ -2,7 +2,7 @@
 > A “从夯到拉” ranking product for organizing items on a qualitative scale.
 Canonical project page: https://projects.imba97.dev/projects/h2l-ranking/
 GitHub: https://github.com/imba97/h2l-ranking
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [h2l-ranking — project overview](https://projects.imba97.dev/projects/h2l-ranking/): A “从夯到拉” ranking product for organizing items on a qualitative scale.

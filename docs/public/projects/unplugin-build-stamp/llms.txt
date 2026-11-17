@@ -2,7 +2,7 @@
 > Inject Git hash, package version, and build time into an application as constants through unplugin.
 Canonical project page: https://projects.imba97.dev/projects/unplugin-build-stamp/
 GitHub: https://github.com/imba97/unplugin-build-stamp
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [unplugin-build-stamp — project overview](https://projects.imba97.dev/projects/unplugin-build-stamp/): Inject Git hash, package version, and build time into an application as constants through unplugin.

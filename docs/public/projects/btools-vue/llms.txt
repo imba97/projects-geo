@@ -2,7 +2,7 @@
 > A Vue-based rewrite of the Btools browser extension.
 Canonical project page: https://projects.imba97.dev/projects/btools-vue/
 GitHub: https://github.com/imba97/Btools-vue
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [Btools-vue — project overview](https://projects.imba97.dev/projects/btools-vue/): A Vue-based rewrite of the Btools browser extension.

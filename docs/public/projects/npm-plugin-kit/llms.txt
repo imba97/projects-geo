@@ -2,7 +2,7 @@
 > A simple npm-based plugin system for installing and loading JavaScript or TypeScript capabilities.
 Canonical project page: https://projects.imba97.dev/projects/npm-plugin-kit/
 GitHub: https://github.com/imba97/npm-plugin-kit
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [npm-plugin-kit — project overview](https://projects.imba97.dev/projects/npm-plugin-kit/): A simple npm-based plugin system for installing and loading JavaScript or TypeScript capabilities.

@@ -2,7 +2,7 @@
 > Options for automatically importing Lodash APIs in an unplugin-auto-import setup.
 Canonical project page: https://projects.imba97.dev/projects/lodash-imports/
 GitHub: https://github.com/imba97/lodash-imports
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [lodash-imports — project overview](https://projects.imba97.dev/projects/lodash-imports/): Options for automatically importing Lodash APIs in an unplugin-auto-import setup.

@@ -2,7 +2,7 @@
 > Infinite logical history with a bounded page stack for uni-app routing.
 Canonical project page: https://projects.imba97.dev/projects/uni-routefinity/
 GitHub: https://github.com/imba97/uni-routefinity
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [uni-routefinity — project overview](https://projects.imba97.dev/projects/uni-routefinity/): Infinite logical history with a bounded page stack for uni-app routing.

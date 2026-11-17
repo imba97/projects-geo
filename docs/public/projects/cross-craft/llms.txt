@@ -2,7 +2,7 @@
 > A Vite+ monorepo starter for Web, Capacitor, and Electron applications.
 Canonical project page: https://projects.imba97.dev/projects/cross-craft/
 GitHub: https://github.com/imba97/cross-craft
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [cross-craft — project overview](https://projects.imba97.dev/projects/cross-craft/): A Vite+ monorepo starter for Web, Capacitor, and Electron applications.

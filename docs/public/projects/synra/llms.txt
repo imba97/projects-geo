@@ -2,7 +2,7 @@
 > A Synra application and AI platform repository with a web-facing product surface.
 Canonical project page: https://projects.imba97.dev/projects/synra/
 GitHub: https://github.com/synra-app/synra
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [Synra — project overview](https://projects.imba97.dev/projects/synra/): A Synra application and AI platform repository with a web-facing product surface.

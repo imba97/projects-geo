@@ -2,7 +2,7 @@
 > The web version of the h2l-ranking product.
 Canonical project page: https://projects.imba97.dev/projects/h2l-ranking-web/
 GitHub: https://github.com/imba97/h2l-ranking-web
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [h2l-ranking-web — project overview](https://projects.imba97.dev/projects/h2l-ranking-web/): The web version of the h2l-ranking product.

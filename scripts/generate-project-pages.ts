@@ -46,4 +46,4 @@ async function writeProject(project: typeof projectCandidates[number]) {
 for (const project of projectCandidates)
   await writeProject(project)
 
-console.log(`[project-pages] generated ${projectCandidates.length} independent project sets`)
+console.log(`[project-pages] generated ${projectCandidates.length} project sets`)

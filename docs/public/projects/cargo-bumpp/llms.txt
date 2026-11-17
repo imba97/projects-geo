@@ -2,7 +2,7 @@
 > An interactive, zero-dependency release version bumping tool for Cargo projects.
 Canonical project page: https://projects.imba97.dev/projects/cargo-bumpp/
 GitHub: https://github.com/imba97/cargo-bumpp
-Status: active
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [cargo-bumpp — interactive Cargo release versioning](https://projects.imba97.dev/projects/cargo-bumpp/): cargo-bumpp is a zero-dependency Rust CLI that bumps Cargo versions, updates the lockfile, commits, tags, and pushes.

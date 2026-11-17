@@ -2,7 +2,7 @@
 > A debugging SDK and inspector ecosystem for sending, viewing, and investigating runtime events.
 Canonical project page: https://projects.imba97.dev/projects/flash-debug/
 GitHub: https://github.com/flash-debug-js/flash-debug
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [Flash Debug — project overview](https://projects.imba97.dev/projects/flash-debug/): A debugging SDK and inspector ecosystem for sending, viewing, and investigating runtime events.

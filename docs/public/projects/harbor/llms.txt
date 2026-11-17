@@ -2,7 +2,7 @@
 > Release orchestration for Cargo workspaces: compute what publishes in what order, preflight a tag, and drive the registry.
 Canonical project page: https://projects.imba97.dev/projects/harbor/
 GitHub: https://github.com/imba97/harbor
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [harbor — project overview](https://projects.imba97.dev/projects/harbor/): Release orchestration for Cargo workspaces: compute what publishes in what order, preflight a tag, and drive the registry.

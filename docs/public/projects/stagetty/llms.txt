@@ -2,7 +2,7 @@
 > A TTY stage renderer with rolling log output for CLI tools.
 Canonical project page: https://projects.imba97.dev/projects/stagetty/
 GitHub: https://github.com/imba97/stagetty
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [stagetty — project overview](https://projects.imba97.dev/projects/stagetty/): A TTY stage renderer with rolling log output for CLI tools.

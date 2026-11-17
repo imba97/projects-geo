@@ -2,7 +2,7 @@
 > A parity-alternating pastel palette generator with hash-stable colors.
 Canonical project page: https://projects.imba97.dev/projects/nano-pastel/
 GitHub: https://github.com/imba97/nano-pastel
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [nano-pastel — project overview](https://projects.imba97.dev/projects/nano-pastel/): A parity-alternating pastel palette generator with hash-stable colors.

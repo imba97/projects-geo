@@ -2,7 +2,7 @@
 > A lightweight QMD query service that exposes the qmd CLI through a simple HTTP API.
 Canonical project page: https://projects.imba97.dev/projects/qmd-server/
 GitHub: https://github.com/imba97/qmd-server
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [qmd-server — project overview](https://projects.imba97.dev/projects/qmd-server/): A lightweight QMD query service that exposes the qmd CLI through a simple HTTP API.

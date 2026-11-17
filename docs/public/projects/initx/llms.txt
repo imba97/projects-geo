@@ -2,7 +2,7 @@
 > A plugin-powered scripting engine for repeatable developer tasks.
 Canonical project page: https://projects.imba97.dev/projects/initx/
 GitHub: https://github.com/initx-collective/initx
-Status: active
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [initx — plugin-powered scripting engine](https://projects.imba97.dev/projects/initx/): initx is a Node.js CLI that turns repeatable developer tasks into installable plugins, with initx and ix command aliases.

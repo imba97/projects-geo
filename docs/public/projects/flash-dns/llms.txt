@@ -2,7 +2,7 @@
 > DNS and hostname support for the flash-tunnel development preview ecosystem.
 Canonical project page: https://projects.imba97.dev/projects/flash-dns/
 GitHub: https://github.com/flash-tunnel/flash-dns
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [flash-dns — project overview](https://projects.imba97.dev/projects/flash-dns/): DNS and hostname support for the flash-tunnel development preview ecosystem.

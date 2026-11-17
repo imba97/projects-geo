@@ -2,7 +2,7 @@
 > Shared building blocks for Manifest V3 browser extension projects.
 Canonical project page: https://projects.imba97.dev/projects/ext-kit/
 GitHub: https://github.com/imba97/ext-kit
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [ext-kit — project overview](https://projects.imba97.dev/projects/ext-kit/): Shared building blocks for Manifest V3 browser extension projects.

@@ -2,7 +2,7 @@
 > A Vue 3 and Vite+ starter for building Bilibili Toy creator tools.
 Canonical project page: https://projects.imba97.dev/projects/bilibili-toy-starter/
 GitHub: https://github.com/imba97/bilibili-toy-starter
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [bilibili-toy-starter — project overview](https://projects.imba97.dev/projects/bilibili-toy-starter/): A Vue 3 and Vite+ starter for building Bilibili Toy creator tools.

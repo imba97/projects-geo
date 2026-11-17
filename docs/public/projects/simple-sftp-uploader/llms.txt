@@ -2,7 +2,7 @@
 > A bundler-agnostic plugin for uploading a project dist directory to a remote server over SFTP.
 Canonical project page: https://projects.imba97.dev/projects/simple-sftp-uploader/
 GitHub: https://github.com/imba97/simple-sftp-uploader
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [simple-sftp-uploader — project overview](https://projects.imba97.dev/projects/simple-sftp-uploader/): A bundler-agnostic plugin for uploading a project dist directory to a remote server over SFTP.

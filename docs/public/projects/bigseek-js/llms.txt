@@ -2,7 +2,7 @@
 > A browser client for Bigseek indexes with a CJK bigram tokenizer and optional MiniSearch fallback.
 Canonical project page: https://projects.imba97.dev/projects/bigseek-js/
 GitHub: https://github.com/imba97/bigseek-js
-Status: documented candidate
+Status: documented
 Last verified: 2026-11-17
 ## English documentation
 - [bigseek-js — project overview](https://projects.imba97.dev/projects/bigseek-js/): A browser client for Bigseek indexes with a CJK bigram tokenizer and optional MiniSearch fallback.
