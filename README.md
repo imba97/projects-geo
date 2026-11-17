@@ -36,3 +36,9 @@ SITE_URL=https://example.com pnpm build
 ```
 
 The static host can use the included `docs/public/CNAME` for `projects.imba97.dev`.
+
+## Deploy to GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds the site with Node 24 and pnpm 12, validates the GEO index, uploads `docs/.vitepress/dist`, and deploys it through the GitHub Pages environment.
+
+In the repository settings, open **Pages** and set **Build and deployment → Source** to **GitHub Actions**. Pushes to `main` and manual workflow runs then deploy the custom-domain site from `docs/public/CNAME`.
