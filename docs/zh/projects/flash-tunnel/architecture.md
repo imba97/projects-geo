@@ -14,14 +14,13 @@ The tunnel separates the local client, public edge, and hostname/DNS support so 
 ## 边界图
 
 ~~~text
-用户或调用方
+a local service listening on a developer machine
         │
         ▼
-flash-tunnel 运行边界
+flash-tunnel: local tunnel client and public edge connection
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a public preview hostname and forwarded traffic
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

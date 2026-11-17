@@ -16,7 +16,7 @@
     "en",
     "zh-CN"
   ],
-  "generatedAt": "2026-11-17T05:46:12.265Z",
+  "generatedAt": "2026-11-17T06:04:24.509Z",
   "projects": [
     {
       "id": "bigseek",
@@ -4504,7 +4504,7 @@
       "description": "A single list of Imba97 project documentation sets.",
       "project": "",
       "type": "index",
-      "updated": "2026-11-17T05:45:58.948Z",
+      "updated": "2026-11-17T05:47:13.036Z",
       "source": "docs/projects/index.md"
     },
     {
@@ -6484,7 +6484,7 @@
       "description": "Imba97 项目文档的统一列表。",
       "project": "",
       "type": "index",
-      "updated": "2026-11-17T05:45:37.142Z",
+      "updated": "2026-11-17T05:47:13.037Z",
       "source": "docs/zh/projects/index.md"
     },
     {

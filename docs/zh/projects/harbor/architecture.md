@@ -14,14 +14,13 @@ Harbor treats a workspace release as a graph and policy problem: inspect members
 ## 边界图
 
 ~~~text
-用户或调用方
+Cargo workspace manifests, package graph, and release policy
         │
         ▼
-harbor 运行边界
+harbor: release ordering, tag preflight, and registry orchestration
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+published crates, tags, and release metadata
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

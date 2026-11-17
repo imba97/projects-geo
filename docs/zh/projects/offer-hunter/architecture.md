@@ -14,14 +14,13 @@ The extension separates site adapters, local IndexedDB storage, AI providers, ba
 ## 边界图
 
 ~~~text
-用户或调用方
+resume data, job descriptions, and browser page context
         │
         ▼
-Offer Hunter 运行边界
+Offer Hunter: Manifest V3 extension storage, adapters, and AI provider calls
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+match analysis and tailored outreach in the browser UI
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

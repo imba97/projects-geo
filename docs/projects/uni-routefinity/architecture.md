@@ -14,14 +14,13 @@ The router separates logical navigation history from the finite number of pages 
 ## Boundary map
 
 ~~~text
-user or calling application
+uni-app navigation intents
         │
         ▼
-uni-routefinity runtime boundary
+uni-routefinity: logical history and bounded page-stack router
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+runtime page transitions with preserved history
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

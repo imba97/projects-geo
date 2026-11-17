@@ -14,14 +14,13 @@ The plugin hooks into supported bundlers after build output exists, then transfe
 ## Boundary map
 
 ~~~text
-user or calling application
+bundler build output and SFTP deployment settings
         │
         ▼
-simple-sftp-uploader runtime boundary
+simple-sftp-uploader: post-build dist directory transfer plugin
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+uploaded files on the remote SFTP server
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The project owns hostname and DNS-facing behavior, keeping public naming concern
 ## Boundary map
 
 ~~~text
-user or calling application
+tunnel hostnames and DNS configuration
         │
         ▼
-flash-dns runtime boundary
+flash-dns: hostname and DNS management for the tunnel ecosystem
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+resolvable names pointing at public tunnel endpoints
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The generator maps stable input values to palette groups while keeping adjacent 
 ## Boundary map
 
 ~~~text
-user or calling application
+stable hash and parity values
         │
         ▼
-nano-pastel runtime boundary
+nano-pastel: hash-stable pastel palette generator
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+repeatable pastel colors for the same input
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The package converts color inputs into a deterministic UnoCSS-compatible palette
 ## Boundary map
 
 ~~~text
-user or calling application
+color values and gradient options
         │
         ▼
-uno-colors runtime boundary
+uno-colors: deterministic UnoCSS palette generator
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+UnoCSS-compatible color tokens
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

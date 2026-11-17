@@ -14,14 +14,13 @@ The extension combines content scripts, background logic, and a Vue interface to
 ## Boundary map
 
 ~~~text
-user or calling application
+Bilibili pages and content-script events
         │
         ▼
-btools-vitesse runtime boundary
+btools-vitesse: Vitesse web extension background and content layers
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+Bilibili-focused browser enhancements
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

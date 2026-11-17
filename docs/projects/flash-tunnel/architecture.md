@@ -14,14 +14,13 @@ The tunnel separates the local client, public edge, and hostname/DNS support so 
 ## Boundary map
 
 ~~~text
-user or calling application
+a local service listening on a developer machine
         │
         ▼
-flash-tunnel runtime boundary
+flash-tunnel: local tunnel client and public edge connection
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a public preview hostname and forwarded traffic
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

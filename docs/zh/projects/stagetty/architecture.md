@@ -14,14 +14,13 @@ The renderer owns terminal presentation and rolling output while the calling CLI
 ## 边界图
 
 ~~~text
-用户或调用方
+CLI work events and log messages
         │
         ▼
-stagetty 运行边界
+stagetty: TTY stage and rolling output renderer
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+live terminal progress and retained log lines
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

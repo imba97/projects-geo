@@ -14,14 +14,13 @@ The package manager is the distribution boundary: a host resolves plugin package
 ## Boundary map
 
 ~~~text
-user or calling application
+npm package names and host plugin requests
         │
         ▼
-npm-plugin-kit runtime boundary
+npm-plugin-kit: JavaScript or TypeScript package resolution and loading
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a capability object available to the host application
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

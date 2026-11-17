@@ -14,14 +14,13 @@ The host defines a runtime loading boundary while plugins are distributed as Rus
 ## Boundary map
 
 ~~~text
-user or calling application
+a Rust host and a plugin crate from crates.io
         │
         ▼
-crate-plugin-kit runtime boundary
+crate-plugin-kit: Cargo plugin installation and cdylib loading boundary
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+runtime plugin capabilities exposed to the host
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

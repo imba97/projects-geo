@@ -14,14 +14,13 @@ The client separates server protocol access from HarmonyOS presentation so self-
 ## Boundary map
 
 ~~~text
-user or calling application
+SonicAPI or Subsonic server data
         │
         ▼
-Sonar runtime boundary
+Sonar: HarmonyOS music client and protocol adapter
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+library, playback, and device UI state
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

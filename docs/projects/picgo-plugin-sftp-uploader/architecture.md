@@ -14,14 +14,13 @@ The plugin maps PicGo upload inputs to an SFTP connection and returns the remote
 ## Boundary map
 
 ~~~text
-user or calling application
+PicGo image upload events and SFTP configuration
         │
         ▼
-picgo-plugin-sftp-uploader runtime boundary
+picgo-plugin-sftp-uploader: PicGo-to-SFTP upload adapter
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

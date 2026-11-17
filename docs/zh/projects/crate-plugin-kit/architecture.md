@@ -14,14 +14,13 @@ The host defines a runtime loading boundary while plugins are distributed as Rus
 ## 边界图
 
 ~~~text
-用户或调用方
+a Rust host and a plugin crate from crates.io
         │
         ▼
-crate-plugin-kit 运行边界
+crate-plugin-kit: Cargo plugin installation and cdylib loading boundary
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+runtime plugin capabilities exposed to the host
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

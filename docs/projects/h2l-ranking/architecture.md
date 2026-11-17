@@ -14,14 +14,13 @@ The product keeps ranking data and presentation separate so the scoring model ca
 ## Boundary map
 
 ~~~text
-user or calling application
+items and qualitative ranking decisions
         │
         ▼
-h2l-ranking runtime boundary
+h2l-ranking: ranking data model and product interface
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a “从夯到拉” ranking presentation
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

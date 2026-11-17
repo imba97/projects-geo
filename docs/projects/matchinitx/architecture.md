@@ -14,14 +14,13 @@ The library keeps matching as a pure function boundary so callers can compose it
 ## Boundary map
 
 ~~~text
-user or calling application
+structured values and matching patterns
         │
         ▼
-matchinitx runtime boundary
+matchinitx: pure matching function
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a match decision for the calling workflow
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The package manager is the distribution boundary: a host resolves plugin package
 ## 边界图
 
 ~~~text
-用户或调用方
+npm package names and host plugin requests
         │
         ▼
-npm-plugin-kit 运行边界
+npm-plugin-kit: JavaScript or TypeScript package resolution and loading
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a capability object available to the host application
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

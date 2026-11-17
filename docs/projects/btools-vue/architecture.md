@@ -14,14 +14,13 @@ The extension separates browser integration from Vue UI components so site-speci
 ## Boundary map
 
 ~~~text
-user or calling application
+browser pages and extension events
         │
         ▼
-Btools-vue runtime boundary
+Btools-vue: Vue UI plus browser integration layers
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+Btools enhancement actions in the browser
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

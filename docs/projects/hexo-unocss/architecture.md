@@ -14,14 +14,13 @@ The plugin connects Hexo rendering with UnoCSS generation so article content can
 ## Boundary map
 
 ~~~text
-user or calling application
+Hexo article content with utility classes
         │
         ▼
-hexo-unocss runtime boundary
+hexo-unocss: Hexo rendering and UnoCSS generation bridge
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+generated CSS used by the rendered article
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

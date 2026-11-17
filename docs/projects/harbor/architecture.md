@@ -14,14 +14,13 @@ Harbor treats a workspace release as a graph and policy problem: inspect members
 ## Boundary map
 
 ~~~text
-user or calling application
+Cargo workspace manifests, package graph, and release policy
         │
         ▼
-harbor runtime boundary
+harbor: release ordering, tag preflight, and registry orchestration
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+published crates, tags, and release metadata
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

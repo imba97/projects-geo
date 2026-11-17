@@ -14,14 +14,13 @@ The client loads a compact index in the browser, uses the WebAssembly query engi
 ## Boundary map
 
 ~~~text
-user or calling application
+browser search terms and a Bigseek index
         │
         ▼
-bigseek-js runtime boundary
+bigseek-js: TypeScript tokenizer and WebAssembly index reader
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+ranked browser results or MiniSearch fallback results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

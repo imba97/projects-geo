@@ -14,14 +14,13 @@ The extension separates site adapters, local IndexedDB storage, AI providers, ba
 ## Boundary map
 
 ~~~text
-user or calling application
+resume data, job descriptions, and browser page context
         │
         ▼
-Offer Hunter runtime boundary
+Offer Hunter: Manifest V3 extension storage, adapters, and AI provider calls
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+match analysis and tailored outreach in the browser UI
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The starter supplies the application shell and build conventions while the creat
 ## Boundary map
 
 ~~~text
-user or calling application
+creator product features and API calls
         │
         ▼
-bilibili-toy-starter runtime boundary
+bilibili-toy-starter: Vue 3 application shell with Vite+ conventions
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a browser application for Bilibili Toy workflows
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The workspace separates language packages from the Web Studio application, with 
 ## Boundary map
 
 ~~~text
-user or calling application
+YYDS source text and editor requests
         │
         ▼
-yyds-lang runtime boundary
+yyds-lang: grammar, lexer, parser, semantic, and language-service packages
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+diagnostics, editor intelligence, and WebAssembly execution
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

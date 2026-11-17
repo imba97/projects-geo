@@ -14,14 +14,13 @@ The workspace separates language packages from the Web Studio application, with 
 ## 边界图
 
 ~~~text
-用户或调用方
+YYDS source text and editor requests
         │
         ▼
-yyds-lang 运行边界
+yyds-lang: grammar, lexer, parser, semantic, and language-service packages
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+diagnostics, editor intelligence, and WebAssembly execution
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

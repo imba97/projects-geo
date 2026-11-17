@@ -14,14 +14,13 @@ The client loads a compact index in the browser, uses the WebAssembly query engi
 ## 边界图
 
 ~~~text
-用户或调用方
+browser search terms and a Bigseek index
         │
         ▼
-bigseek-js 运行边界
+bigseek-js: TypeScript tokenizer and WebAssembly index reader
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+ranked browser results or MiniSearch fallback results
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

@@ -14,14 +14,13 @@ The monorepo separates product applications, shared packages, and runtime integr
 ## Boundary map
 
 ~~~text
-user or calling application
+web product interactions and platform requests
         │
         ▼
-Synra runtime boundary
+Synra: Synra application and AI platform runtime
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+web UI state and AI-assisted results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The project defines a portable schema boundary so producers can describe trigger
 ## Boundary map
 
 ~~~text
-user or calling application
+event producers and trigger definitions
         │
         ▼
-triggerix runtime boundary
+triggerix: portable event, condition, and action schema
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+language-specific trigger consumers
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

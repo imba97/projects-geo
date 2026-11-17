@@ -14,14 +14,13 @@ The starter separates shared packages from platform applications so web and desk
 ## Boundary map
 
 ~~~text
-user or calling application
+shared product packages and platform-specific app code
         │
         ▼
-cross-craft runtime boundary
+cross-craft: Vite+ workspace and cross-platform application shell
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+Web, Capacitor, and Electron application builds
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

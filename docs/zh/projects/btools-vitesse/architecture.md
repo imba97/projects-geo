@@ -14,14 +14,13 @@ The extension combines content scripts, background logic, and a Vue interface to
 ## 边界图
 
 ~~~text
-用户或调用方
+Bilibili pages and content-script events
         │
         ▼
-btools-vitesse 运行边界
+btools-vitesse: Vitesse web extension background and content layers
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+Bilibili-focused browser enhancements
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

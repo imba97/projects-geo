@@ -1,6 +1,6 @@
 ﻿# Imba97 Projects — full Markdown dump
 
-Generated: 2026-11-17T05:46:12.265Z
+Generated: 2026-11-17T06:04:24.509Z
 
 ## Site documentation
 
@@ -406,14 +406,13 @@ The native side builds a compact binary index; the runtime reads that index for 
 ## Boundary map
 
 ~~~text
-user or calling application
+documents and searchable text
         │
         ▼
-bigseek runtime boundary
+bigseek: native CJK-aware bigram index builder
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+compact binary index consumed by the query runtime
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -570,14 +569,13 @@ The native side builds a compact binary index; the runtime reads that index for 
 ## 边界图
 
 ~~~text
-用户或调用方
+documents and searchable text
         │
         ▼
-bigseek 运行边界
+bigseek: native CJK-aware bigram index builder
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+compact binary index consumed by the query runtime
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -738,14 +736,13 @@ The client loads a compact index in the browser, uses the WebAssembly query engi
 ## Boundary map
 
 ~~~text
-user or calling application
+browser search terms and a Bigseek index
         │
         ▼
-bigseek-js runtime boundary
+bigseek-js: TypeScript tokenizer and WebAssembly index reader
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+ranked browser results or MiniSearch fallback results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -902,14 +899,13 @@ The client loads a compact index in the browser, uses the WebAssembly query engi
 ## 边界图
 
 ~~~text
-用户或调用方
+browser search terms and a Bigseek index
         │
         ▼
-bigseek-js 运行边界
+bigseek-js: TypeScript tokenizer and WebAssembly index reader
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+ranked browser results or MiniSearch fallback results
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -1070,14 +1066,13 @@ The SDK keeps API request types and response models in a reusable package so cre
 ## Boundary map
 
 ~~~text
-user or calling application
+typed creator API requests
         │
         ▼
-bilibili-toy runtime boundary
+bilibili-toy: Bilibili Toy protocol types and SDK client
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+typed creator API responses
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -1234,14 +1229,13 @@ The SDK keeps API request types and response models in a reusable package so cre
 ## 边界图
 
 ~~~text
-用户或调用方
+typed creator API requests
         │
         ▼
-bilibili-toy 运行边界
+bilibili-toy: Bilibili Toy protocol types and SDK client
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+typed creator API responses
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -1402,14 +1396,13 @@ The starter supplies the application shell and build conventions while the creat
 ## Boundary map
 
 ~~~text
-user or calling application
+creator product features and API calls
         │
         ▼
-bilibili-toy-starter runtime boundary
+bilibili-toy-starter: Vue 3 application shell with Vite+ conventions
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a browser application for Bilibili Toy workflows
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -1566,14 +1559,13 @@ The starter supplies the application shell and build conventions while the creat
 ## 边界图
 
 ~~~text
-用户或调用方
+creator product features and API calls
         │
         ▼
-bilibili-toy-starter 运行边界
+bilibili-toy-starter: Vue 3 application shell with Vite+ conventions
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a browser application for Bilibili Toy workflows
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -1734,14 +1726,13 @@ The extension combines content scripts, background logic, and a Vue interface to
 ## Boundary map
 
 ~~~text
-user or calling application
+Bilibili pages and content-script events
         │
         ▼
-btools-vitesse runtime boundary
+btools-vitesse: Vitesse web extension background and content layers
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+Bilibili-focused browser enhancements
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -1898,14 +1889,13 @@ The extension combines content scripts, background logic, and a Vue interface to
 ## 边界图
 
 ~~~text
-用户或调用方
+Bilibili pages and content-script events
         │
         ▼
-btools-vitesse 运行边界
+btools-vitesse: Vitesse web extension background and content layers
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+Bilibili-focused browser enhancements
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -2066,14 +2056,13 @@ The extension separates browser integration from Vue UI components so site-speci
 ## Boundary map
 
 ~~~text
-user or calling application
+browser pages and extension events
         │
         ▼
-Btools-vue runtime boundary
+Btools-vue: Vue UI plus browser integration layers
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+Btools enhancement actions in the browser
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -2230,14 +2219,13 @@ The extension separates browser integration from Vue UI components so site-speci
 ## 边界图
 
 ~~~text
-用户或调用方
+browser pages and extension events
         │
         ▼
-Btools-vue 运行边界
+Btools-vue: Vue UI plus browser integration layers
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+Btools enhancement actions in the browser
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -3173,14 +3161,13 @@ The tool derives a character set from project inputs, then runs a font subsettin
 ## Boundary map
 
 ~~~text
-user or calling application
+source code and the project character set
         │
         ▼
-charbi-font runtime boundary
+charbi-font: character scan and font subsetting pipeline
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a smaller font package containing required glyphs
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -3337,14 +3324,13 @@ The tool derives a character set from project inputs, then runs a font subsettin
 ## 边界图
 
 ~~~text
-用户或调用方
+source code and the project character set
         │
         ▼
-charbi-font 运行边界
+charbi-font: character scan and font subsetting pipeline
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a smaller font package containing required glyphs
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -3505,14 +3491,13 @@ The host defines a runtime loading boundary while plugins are distributed as Rus
 ## Boundary map
 
 ~~~text
-user or calling application
+a Rust host and a plugin crate from crates.io
         │
         ▼
-crate-plugin-kit runtime boundary
+crate-plugin-kit: Cargo plugin installation and cdylib loading boundary
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+runtime plugin capabilities exposed to the host
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -3669,14 +3654,13 @@ The host defines a runtime loading boundary while plugins are distributed as Rus
 ## 边界图
 
 ~~~text
-用户或调用方
+a Rust host and a plugin crate from crates.io
         │
         ▼
-crate-plugin-kit 运行边界
+crate-plugin-kit: Cargo plugin installation and cdylib loading boundary
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+runtime plugin capabilities exposed to the host
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -3837,14 +3821,13 @@ The starter separates shared packages from platform applications so web and desk
 ## Boundary map
 
 ~~~text
-user or calling application
+shared product packages and platform-specific app code
         │
         ▼
-cross-craft runtime boundary
+cross-craft: Vite+ workspace and cross-platform application shell
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+Web, Capacitor, and Electron application builds
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -4001,14 +3984,13 @@ The starter separates shared packages from platform applications so web and desk
 ## 边界图
 
 ~~~text
-用户或调用方
+shared product packages and platform-specific app code
         │
         ▼
-cross-craft 运行边界
+cross-craft: Vite+ workspace and cross-platform application shell
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+Web, Capacitor, and Electron application builds
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -4169,14 +4151,13 @@ The toolkit packages repeatable extension concerns such as storage, messaging, a
 ## Boundary map
 
 ~~~text
-user or calling application
+browser extension contexts and product events
         │
         ▼
-ext-kit runtime boundary
+ext-kit: shared Manifest V3 storage, messaging, and lifecycle primitives
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+reusable extension capabilities for product packages
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -4333,14 +4314,13 @@ The toolkit packages repeatable extension concerns such as storage, messaging, a
 ## 边界图
 
 ~~~text
-用户或调用方
+browser extension contexts and product events
         │
         ▼
-ext-kit 运行边界
+ext-kit: shared Manifest V3 storage, messaging, and lifecycle primitives
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+reusable extension capabilities for product packages
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -4501,14 +4481,13 @@ The repository combines producer-facing packages with an inspector surface, keep
 ## Boundary map
 
 ~~~text
-user or calling application
+runtime events from producer SDKs
         │
         ▼
-Flash Debug runtime boundary
+Flash Debug: event transport, inspection, and debugging SDKs
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+inspector views and diagnostic records
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -4665,14 +4644,13 @@ The repository combines producer-facing packages with an inspector surface, keep
 ## 边界图
 
 ~~~text
-用户或调用方
+runtime events from producer SDKs
         │
         ▼
-Flash Debug 运行边界
+Flash Debug: event transport, inspection, and debugging SDKs
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+inspector views and diagnostic records
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -4833,14 +4811,13 @@ The project owns hostname and DNS-facing behavior, keeping public naming concern
 ## Boundary map
 
 ~~~text
-user or calling application
+tunnel hostnames and DNS configuration
         │
         ▼
-flash-dns runtime boundary
+flash-dns: hostname and DNS management for the tunnel ecosystem
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+resolvable names pointing at public tunnel endpoints
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -4997,14 +4974,13 @@ The project owns hostname and DNS-facing behavior, keeping public naming concern
 ## 边界图
 
 ~~~text
-用户或调用方
+tunnel hostnames and DNS configuration
         │
         ▼
-flash-dns 运行边界
+flash-dns: hostname and DNS management for the tunnel ecosystem
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+resolvable names pointing at public tunnel endpoints
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -5167,14 +5143,13 @@ The tunnel separates the local client, public edge, and hostname/DNS support so 
 ## Boundary map
 
 ~~~text
-user or calling application
+a local service listening on a developer machine
         │
         ▼
-flash-tunnel runtime boundary
+flash-tunnel: local tunnel client and public edge connection
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a public preview hostname and forwarded traffic
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -5333,14 +5308,13 @@ The tunnel separates the local client, public edge, and hostname/DNS support so 
 ## 边界图
 
 ~~~text
-用户或调用方
+a local service listening on a developer machine
         │
         ▼
-flash-tunnel 运行边界
+flash-tunnel: local tunnel client and public edge connection
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a public preview hostname and forwarded traffic
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -5501,14 +5475,13 @@ The library turns file-backed state into a reactive context so separate processe
 ## Boundary map
 
 ~~~text
-user or calling application
+file-backed state changes from multiple processes
         │
         ▼
-fs-ctx runtime boundary
+fs-ctx: reactive file-system context and change propagation
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+observable shared state for other processes
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -5665,14 +5638,13 @@ The library turns file-backed state into a reactive context so separate processe
 ## 边界图
 
 ~~~text
-用户或调用方
+file-backed state changes from multiple processes
         │
         ▼
-fs-ctx 运行边界
+fs-ctx: reactive file-system context and change propagation
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+observable shared state for other processes
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -5833,14 +5805,13 @@ The product keeps ranking data and presentation separate so the scoring model ca
 ## Boundary map
 
 ~~~text
-user or calling application
+items and qualitative ranking decisions
         │
         ▼
-h2l-ranking runtime boundary
+h2l-ranking: ranking data model and product interface
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a “从夯到拉” ranking presentation
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -5997,14 +5968,13 @@ The product keeps ranking data and presentation separate so the scoring model ca
 ## 边界图
 
 ~~~text
-用户或调用方
+items and qualitative ranking decisions
         │
         ▼
-h2l-ranking 运行边界
+h2l-ranking: ranking data model and product interface
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a “从夯到拉” ranking presentation
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -6165,14 +6135,13 @@ The web application owns browser-facing routing, rendering, and persisted rankin
 ## Boundary map
 
 ~~~text
-user or calling application
+browser ranking interactions and persisted state
         │
         ▼
-h2l-ranking-web runtime boundary
+h2l-ranking-web: web routing, rendering, and ranking application state
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+shareable ranking views in the browser
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -6329,14 +6298,13 @@ The web application owns browser-facing routing, rendering, and persisted rankin
 ## 边界图
 
 ~~~text
-用户或调用方
+browser ranking interactions and persisted state
         │
         ▼
-h2l-ranking-web 运行边界
+h2l-ranking-web: web routing, rendering, and ranking application state
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+shareable ranking views in the browser
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -6497,14 +6465,13 @@ Harbor treats a workspace release as a graph and policy problem: inspect members
 ## Boundary map
 
 ~~~text
-user or calling application
+Cargo workspace manifests, package graph, and release policy
         │
         ▼
-harbor runtime boundary
+harbor: release ordering, tag preflight, and registry orchestration
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+published crates, tags, and release metadata
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -6661,14 +6628,13 @@ Harbor treats a workspace release as a graph and policy problem: inspect members
 ## 边界图
 
 ~~~text
-用户或调用方
+Cargo workspace manifests, package graph, and release policy
         │
         ▼
-harbor 运行边界
+harbor: release ordering, tag preflight, and registry orchestration
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+published crates, tags, and release metadata
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -6829,14 +6795,13 @@ The plugin connects Hexo rendering with UnoCSS generation so article content can
 ## Boundary map
 
 ~~~text
-user or calling application
+Hexo article content with utility classes
         │
         ▼
-hexo-unocss runtime boundary
+hexo-unocss: Hexo rendering and UnoCSS generation bridge
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+generated CSS used by the rendered article
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -6993,14 +6958,13 @@ The plugin connects Hexo rendering with UnoCSS generation so article content can
 ## 边界图
 
 ~~~text
-用户或调用方
+Hexo article content with utility classes
         │
         ▼
-hexo-unocss 运行边界
+hexo-unocss: Hexo rendering and UnoCSS generation bridge
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+generated CSS used by the rendered article
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -7958,14 +7922,13 @@ The package provides import metadata and transform configuration while leaving m
 ## Boundary map
 
 ~~~text
-user or calling application
+Lodash API usage detected by auto-import tooling
         │
         ▼
-lodash-imports runtime boundary
+lodash-imports: import metadata and unplugin-auto-import configuration
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+generated Lodash import statements
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -8122,14 +8085,13 @@ The package provides import metadata and transform configuration while leaving m
 ## 边界图
 
 ~~~text
-用户或调用方
+Lodash API usage detected by auto-import tooling
         │
         ▼
-lodash-imports 运行边界
+lodash-imports: import metadata and unplugin-auto-import configuration
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+generated Lodash import statements
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -9012,14 +8974,13 @@ The parser extension recognizes typed link syntax and delegates the final URL re
 ## Boundary map
 
 ~~~text
-user or calling application
+Markdown containing typed inline link syntax
         │
         ▼
-markdown-it-extra-link runtime boundary
+markdown-it-extra-link: markdown-it token parser and host URL resolver
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+rendered links in the host application
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -9176,14 +9137,13 @@ The parser extension recognizes typed link syntax and delegates the final URL re
 ## 边界图
 
 ~~~text
-用户或调用方
+Markdown containing typed inline link syntax
         │
         ▼
-markdown-it-extra-link 运行边界
+markdown-it-extra-link: markdown-it token parser and host URL resolver
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+rendered links in the host application
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -9344,14 +9304,13 @@ The library keeps matching as a pure function boundary so callers can compose it
 ## Boundary map
 
 ~~~text
-user or calling application
+structured values and matching patterns
         │
         ▼
-matchinitx runtime boundary
+matchinitx: pure matching function
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a match decision for the calling workflow
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -9508,14 +9467,13 @@ The library keeps matching as a pure function boundary so callers can compose it
 ## 边界图
 
 ~~~text
-用户或调用方
+structured values and matching patterns
         │
         ▼
-matchinitx 运行边界
+matchinitx: pure matching function
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a match decision for the calling workflow
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -9676,14 +9634,13 @@ The generator maps stable input values to palette groups while keeping adjacent 
 ## Boundary map
 
 ~~~text
-user or calling application
+stable hash and parity values
         │
         ▼
-nano-pastel runtime boundary
+nano-pastel: hash-stable pastel palette generator
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+repeatable pastel colors for the same input
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -9840,14 +9797,13 @@ The generator maps stable input values to palette groups while keeping adjacent 
 ## 边界图
 
 ~~~text
-用户或调用方
+stable hash and parity values
         │
         ▼
-nano-pastel 运行边界
+nano-pastel: hash-stable pastel palette generator
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+repeatable pastel colors for the same input
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -10008,14 +9964,13 @@ The package manager is the distribution boundary: a host resolves plugin package
 ## Boundary map
 
 ~~~text
-user or calling application
+npm package names and host plugin requests
         │
         ▼
-npm-plugin-kit runtime boundary
+npm-plugin-kit: JavaScript or TypeScript package resolution and loading
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a capability object available to the host application
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -10172,14 +10127,13 @@ The package manager is the distribution boundary: a host resolves plugin package
 ## 边界图
 
 ~~~text
-用户或调用方
+npm package names and host plugin requests
         │
         ▼
-npm-plugin-kit 运行边界
+npm-plugin-kit: JavaScript or TypeScript package resolution and loading
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+a capability object available to the host application
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -10342,14 +10296,13 @@ The extension separates site adapters, local IndexedDB storage, AI providers, ba
 ## Boundary map
 
 ~~~text
-user or calling application
+resume data, job descriptions, and browser page context
         │
         ▼
-Offer Hunter runtime boundary
+Offer Hunter: Manifest V3 extension storage, adapters, and AI provider calls
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+match analysis and tailored outreach in the browser UI
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -10508,14 +10461,13 @@ The extension separates site adapters, local IndexedDB storage, AI providers, ba
 ## 边界图
 
 ~~~text
-用户或调用方
+resume data, job descriptions, and browser page context
         │
         ▼
-Offer Hunter 运行边界
+Offer Hunter: Manifest V3 extension storage, adapters, and AI provider calls
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+match analysis and tailored outreach in the browser UI
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -10676,14 +10628,13 @@ The CLI separates entity creation, relation updates, and graph queries so the sa
 ## Boundary map
 
 ~~~text
-user or calling application
+entity and relationship commands
         │
         ▼
-ontograph-cli runtime boundary
+ontograph-cli: graph mutation and query operations
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+stored knowledge graph data and query results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -10840,14 +10791,13 @@ The CLI separates entity creation, relation updates, and graph queries so the sa
 ## 边界图
 
 ~~~text
-用户或调用方
+entity and relationship commands
         │
         ▼
-ontograph-cli 运行边界
+ontograph-cli: graph mutation and query operations
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+stored knowledge graph data and query results
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -11008,14 +10958,13 @@ The plugin adapts PicGo upload events to an FTP destination and returns the uplo
 ## Boundary map
 
 ~~~text
-user or calling application
+PicGo image upload events and FTP configuration
         │
         ▼
-picgo-plugin-ftp-uploader runtime boundary
+picgo-plugin-ftp-uploader: PicGo-to-FTP upload adapter
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -11172,14 +11121,13 @@ The plugin adapts PicGo upload events to an FTP destination and returns the uplo
 ## 边界图
 
 ~~~text
-用户或调用方
+PicGo image upload events and FTP configuration
         │
         ▼
-picgo-plugin-ftp-uploader 运行边界
+picgo-plugin-ftp-uploader: PicGo-to-FTP upload adapter
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -11340,14 +11288,13 @@ The plugin maps PicGo upload inputs to an SFTP connection and returns the remote
 ## Boundary map
 
 ~~~text
-user or calling application
+PicGo image upload events and SFTP configuration
         │
         ▼
-picgo-plugin-sftp-uploader runtime boundary
+picgo-plugin-sftp-uploader: PicGo-to-SFTP upload adapter
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -11504,14 +11451,13 @@ The plugin maps PicGo upload inputs to an SFTP connection and returns the remote
 ## 边界图
 
 ~~~text
-用户或调用方
+PicGo image upload events and SFTP configuration
         │
         ▼
-picgo-plugin-sftp-uploader 运行边界
+picgo-plugin-sftp-uploader: PicGo-to-SFTP upload adapter
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -11672,14 +11618,13 @@ The HTTP layer translates request parameters into qmd operations and returns a s
 ## Boundary map
 
 ~~~text
-user or calling application
+HTTP query parameters
         │
         ▼
-qmd-server runtime boundary
+qmd-server: h3 request adapter around the qmd command
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+HTTP responses containing query results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -11836,14 +11781,13 @@ The HTTP layer translates request parameters into qmd operations and returns a s
 ## 边界图
 
 ~~~text
-用户或调用方
+HTTP query parameters
         │
         ▼
-qmd-server 运行边界
+qmd-server: h3 request adapter around the qmd command
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+HTTP responses containing query results
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -12004,14 +11948,13 @@ The plugin hooks into supported bundlers after build output exists, then transfe
 ## Boundary map
 
 ~~~text
-user or calling application
+bundler build output and SFTP deployment settings
         │
         ▼
-simple-sftp-uploader runtime boundary
+simple-sftp-uploader: post-build dist directory transfer plugin
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+uploaded files on the remote SFTP server
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -12168,14 +12111,13 @@ The plugin hooks into supported bundlers after build output exists, then transfe
 ## 边界图
 
 ~~~text
-用户或调用方
+bundler build output and SFTP deployment settings
         │
         ▼
-simple-sftp-uploader 运行边界
+simple-sftp-uploader: post-build dist directory transfer plugin
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+uploaded files on the remote SFTP server
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -12336,14 +12278,13 @@ The client separates server protocol access from HarmonyOS presentation so self-
 ## Boundary map
 
 ~~~text
-user or calling application
+SonicAPI or Subsonic server data
         │
         ▼
-Sonar runtime boundary
+Sonar: HarmonyOS music client and protocol adapter
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+library, playback, and device UI state
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -12500,14 +12441,13 @@ The client separates server protocol access from HarmonyOS presentation so self-
 ## 边界图
 
 ~~~text
-用户或调用方
+SonicAPI or Subsonic server data
         │
         ▼
-Sonar 运行边界
+Sonar: HarmonyOS music client and protocol adapter
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+library, playback, and device UI state
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -12668,14 +12608,13 @@ The tool bridges an agent-produced region description and a visible desktop over
 ## Boundary map
 
 ~~~text
-user or calling application
+agent-produced screen regions and labels
         │
         ▼
-spotlight runtime boundary
+spotlight: native desktop overlay renderer
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+visible click targets on the user screen
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -12832,14 +12771,13 @@ The tool bridges an agent-produced region description and a visible desktop over
 ## 边界图
 
 ~~~text
-用户或调用方
+agent-produced screen regions and labels
         │
         ▼
-spotlight 运行边界
+spotlight: native desktop overlay renderer
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+visible click targets on the user screen
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -13000,14 +12938,13 @@ The renderer owns terminal presentation and rolling output while the calling CLI
 ## Boundary map
 
 ~~~text
-user or calling application
+CLI work events and log messages
         │
         ▼
-stagetty runtime boundary
+stagetty: TTY stage and rolling output renderer
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+live terminal progress and retained log lines
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -13164,14 +13101,13 @@ The renderer owns terminal presentation and rolling output while the calling CLI
 ## 边界图
 
 ~~~text
-用户或调用方
+CLI work events and log messages
         │
         ▼
-stagetty 运行边界
+stagetty: TTY stage and rolling output renderer
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+live terminal progress and retained log lines
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -13332,14 +13268,13 @@ The monorepo separates product applications, shared packages, and runtime integr
 ## Boundary map
 
 ~~~text
-user or calling application
+web product interactions and platform requests
         │
         ▼
-Synra runtime boundary
+Synra: Synra application and AI platform runtime
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+web UI state and AI-assisted results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -13496,14 +13431,13 @@ The monorepo separates product applications, shared packages, and runtime integr
 ## 边界图
 
 ~~~text
-用户或调用方
+web product interactions and platform requests
         │
         ▼
-Synra 运行边界
+Synra: Synra application and AI platform runtime
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+web UI state and AI-assisted results
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -13664,14 +13598,13 @@ The project defines a portable schema boundary so producers can describe trigger
 ## Boundary map
 
 ~~~text
-user or calling application
+event producers and trigger definitions
         │
         ▼
-triggerix runtime boundary
+triggerix: portable event, condition, and action schema
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+language-specific trigger consumers
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -13828,14 +13761,13 @@ The project defines a portable schema boundary so producers can describe trigger
 ## 边界图
 
 ~~~text
-用户或调用方
+event producers and trigger definitions
         │
         ▼
-triggerix 运行边界
+triggerix: portable event, condition, and action schema
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+language-specific trigger consumers
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -13996,14 +13928,13 @@ The router separates logical navigation history from the finite number of pages 
 ## Boundary map
 
 ~~~text
-user or calling application
+uni-app navigation intents
         │
         ▼
-uni-routefinity runtime boundary
+uni-routefinity: logical history and bounded page-stack router
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+runtime page transitions with preserved history
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -14160,14 +14091,13 @@ The router separates logical navigation history from the finite number of pages 
 ## 边界图
 
 ~~~text
-用户或调用方
+uni-app navigation intents
         │
         ▼
-uni-routefinity 运行边界
+uni-routefinity: logical history and bounded page-stack router
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+runtime page transitions with preserved history
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -14328,14 +14258,13 @@ The package converts color inputs into a deterministic UnoCSS-compatible palette
 ## Boundary map
 
 ~~~text
-user or calling application
+color values and gradient options
         │
         ▼
-uno-colors runtime boundary
+uno-colors: deterministic UnoCSS palette generator
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+UnoCSS-compatible color tokens
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -14492,14 +14421,13 @@ The package converts color inputs into a deterministic UnoCSS-compatible palette
 ## 边界图
 
 ~~~text
-用户或调用方
+color values and gradient options
         │
         ▼
-uno-colors 运行边界
+uno-colors: deterministic UnoCSS palette generator
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+UnoCSS-compatible color tokens
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -14660,14 +14588,13 @@ The plugin reads build metadata at bundler time and exposes stable constants to 
 ## Boundary map
 
 ~~~text
-user or calling application
+Git hash, package version, and build time
         │
         ▼
-unplugin-build-stamp runtime boundary
+unplugin-build-stamp: bundler-time unplugin transform
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+compile-time constants imported by application code
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -14824,14 +14751,13 @@ The plugin reads build metadata at bundler time and exposes stable constants to 
 ## 边界图
 
 ~~~text
-用户或调用方
+Git hash, package version, and build time
         │
         ▼
-unplugin-build-stamp 运行边界
+unplugin-build-stamp: bundler-time unplugin transform
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+compile-time constants imported by application code
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。
@@ -14994,14 +14920,13 @@ The workspace separates language packages from the Web Studio application, with 
 ## Boundary map
 
 ~~~text
-user or calling application
+YYDS source text and editor requests
         │
         ▼
-yyds-lang runtime boundary
+yyds-lang: grammar, lexer, parser, semantic, and language-service packages
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+diagnostics, editor intelligence, and WebAssembly execution
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
@@ -15160,14 +15085,13 @@ The workspace separates language packages from the Web Studio application, with 
 ## 边界图
 
 ~~~text
-用户或调用方
+YYDS source text and editor requests
         │
         ▼
-yyds-lang 运行边界
+yyds-lang: grammar, lexer, parser, semantic, and language-service packages
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+diagnostics, editor intelligence, and WebAssembly execution
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

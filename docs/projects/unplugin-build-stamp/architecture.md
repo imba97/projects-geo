@@ -14,14 +14,13 @@ The plugin reads build metadata at bundler time and exposes stable constants to 
 ## Boundary map
 
 ~~~text
-user or calling application
+Git hash, package version, and build time
         │
         ▼
-unplugin-build-stamp runtime boundary
+unplugin-build-stamp: bundler-time unplugin transform
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+compile-time constants imported by application code
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

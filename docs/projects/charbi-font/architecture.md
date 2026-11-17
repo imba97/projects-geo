@@ -14,14 +14,13 @@ The tool derives a character set from project inputs, then runs a font subsettin
 ## Boundary map
 
 ~~~text
-user or calling application
+source code and the project character set
         │
         ▼
-charbi-font runtime boundary
+charbi-font: character scan and font subsetting pipeline
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+a smaller font package containing required glyphs
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

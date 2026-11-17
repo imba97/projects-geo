@@ -14,14 +14,13 @@ The starter separates shared packages from platform applications so web and desk
 ## 边界图
 
 ~~~text
-用户或调用方
+shared product packages and platform-specific app code
         │
         ▼
-cross-craft 运行边界
+cross-craft: Vite+ workspace and cross-platform application shell
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+Web, Capacitor, and Electron application builds
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

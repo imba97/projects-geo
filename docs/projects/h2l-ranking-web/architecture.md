@@ -14,14 +14,13 @@ The web application owns browser-facing routing, rendering, and persisted rankin
 ## Boundary map
 
 ~~~text
-user or calling application
+browser ranking interactions and persisted state
         │
         ▼
-h2l-ranking-web runtime boundary
+h2l-ranking-web: web routing, rendering, and ranking application state
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+shareable ranking views in the browser
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

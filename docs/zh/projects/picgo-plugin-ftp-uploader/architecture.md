@@ -14,14 +14,13 @@ The plugin adapts PicGo upload events to an FTP destination and returns the uplo
 ## 边界图
 
 ~~~text
-用户或调用方
+PicGo image upload events and FTP configuration
         │
         ▼
-picgo-plugin-ftp-uploader 运行边界
+picgo-plugin-ftp-uploader: PicGo-to-FTP upload adapter
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

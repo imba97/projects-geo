@@ -14,14 +14,13 @@ The generator maps stable input values to palette groups while keeping adjacent 
 ## 边界图
 
 ~~~text
-用户或调用方
+stable hash and parity values
         │
         ▼
-nano-pastel 运行边界
+nano-pastel: hash-stable pastel palette generator
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+repeatable pastel colors for the same input
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

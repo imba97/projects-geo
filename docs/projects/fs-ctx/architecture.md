@@ -14,14 +14,13 @@ The library turns file-backed state into a reactive context so separate processe
 ## Boundary map
 
 ~~~text
-user or calling application
+file-backed state changes from multiple processes
         │
         ▼
-fs-ctx runtime boundary
+fs-ctx: reactive file-system context and change propagation
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+observable shared state for other processes
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

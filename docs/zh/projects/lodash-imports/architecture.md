@@ -14,14 +14,13 @@ The package provides import metadata and transform configuration while leaving m
 ## 边界图
 
 ~~~text
-用户或调用方
+Lodash API usage detected by auto-import tooling
         │
         ▼
-lodash-imports 运行边界
+lodash-imports: import metadata and unplugin-auto-import configuration
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+generated Lodash import statements
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

@@ -14,14 +14,13 @@ The SDK keeps API request types and response models in a reusable package so cre
 ## Boundary map
 
 ~~~text
-user or calling application
+typed creator API requests
         │
         ▼
-bilibili-toy runtime boundary
+bilibili-toy: Bilibili Toy protocol types and SDK client
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+typed creator API responses
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

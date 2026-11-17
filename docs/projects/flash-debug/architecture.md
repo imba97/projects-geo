@@ -14,14 +14,13 @@ The repository combines producer-facing packages with an inspector surface, keep
 ## Boundary map
 
 ~~~text
-user or calling application
+runtime events from producer SDKs
         │
         ▼
-Flash Debug runtime boundary
+Flash Debug: event transport, inspection, and debugging SDKs
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+inspector views and diagnostic records
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

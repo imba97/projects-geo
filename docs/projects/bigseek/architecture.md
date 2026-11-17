@@ -14,14 +14,13 @@ The native side builds a compact binary index; the runtime reads that index for 
 ## Boundary map
 
 ~~~text
-user or calling application
+documents and searchable text
         │
         ▼
-bigseek runtime boundary
+bigseek: native CJK-aware bigram index builder
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+compact binary index consumed by the query runtime
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

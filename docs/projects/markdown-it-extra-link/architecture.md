@@ -14,14 +14,13 @@ The parser extension recognizes typed link syntax and delegates the final URL re
 ## Boundary map
 
 ~~~text
-user or calling application
+Markdown containing typed inline link syntax
         │
         ▼
-markdown-it-extra-link runtime boundary
+markdown-it-extra-link: markdown-it token parser and host URL resolver
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+rendered links in the host application
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

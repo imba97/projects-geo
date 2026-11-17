@@ -14,14 +14,13 @@ The CLI separates entity creation, relation updates, and graph queries so the sa
 ## Boundary map
 
 ~~~text
-user or calling application
+entity and relationship commands
         │
         ▼
-ontograph-cli runtime boundary
+ontograph-cli: graph mutation and query operations
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+stored knowledge graph data and query results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

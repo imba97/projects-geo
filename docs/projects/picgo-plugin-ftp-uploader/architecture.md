@@ -14,14 +14,13 @@ The plugin adapts PicGo upload events to an FTP destination and returns the uplo
 ## Boundary map
 
 ~~~text
-user or calling application
+PicGo image upload events and FTP configuration
         │
         ▼
-picgo-plugin-ftp-uploader runtime boundary
+picgo-plugin-ftp-uploader: PicGo-to-FTP upload adapter
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+remote image URL returned to PicGo
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

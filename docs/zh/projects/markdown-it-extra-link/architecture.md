@@ -14,14 +14,13 @@ The parser extension recognizes typed link syntax and delegates the final URL re
 ## 边界图
 
 ~~~text
-用户或调用方
+Markdown containing typed inline link syntax
         │
         ▼
-markdown-it-extra-link 运行边界
+markdown-it-extra-link: markdown-it token parser and host URL resolver
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+rendered links in the host application
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

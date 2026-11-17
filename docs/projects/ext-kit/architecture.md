@@ -14,14 +14,13 @@ The toolkit packages repeatable extension concerns such as storage, messaging, a
 ## Boundary map
 
 ~~~text
-user or calling application
+browser extension contexts and product events
         │
         ▼
-ext-kit runtime boundary
+ext-kit: shared Manifest V3 storage, messaging, and lifecycle primitives
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+reusable extension capabilities for product packages
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

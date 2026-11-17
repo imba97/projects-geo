@@ -14,14 +14,13 @@ The HTTP layer translates request parameters into qmd operations and returns a s
 ## Boundary map
 
 ~~~text
-user or calling application
+HTTP query parameters
         │
         ▼
-qmd-server runtime boundary
+qmd-server: h3 request adapter around the qmd command
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+HTTP responses containing query results
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

@@ -14,14 +14,13 @@ The native side builds a compact binary index; the runtime reads that index for 
 ## 边界图
 
 ~~~text
-用户或调用方
+documents and searchable text
         │
         ▼
-bigseek 运行边界
+bigseek: native CJK-aware bigram index builder
         │
-        ├─ 项目专属实现
-        ├─ 测试与 fixtures
-        └─ 构建或发布产物
+        ▼
+compact binary index consumed by the query runtime
 ~~~
 
 具体模块名和包图以当前仓库版本为准。先从 README 和源码入口开始，再沿 import 进入实现边界。

@@ -14,14 +14,13 @@ The tool bridges an agent-produced region description and a visible desktop over
 ## Boundary map
 
 ~~~text
-user or calling application
+agent-produced screen regions and labels
         │
         ▼
-spotlight runtime boundary
+spotlight: native desktop overlay renderer
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+visible click targets on the user screen
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.

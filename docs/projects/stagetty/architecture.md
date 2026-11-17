@@ -14,14 +14,13 @@ The renderer owns terminal presentation and rolling output while the calling CLI
 ## Boundary map
 
 ~~~text
-user or calling application
+CLI work events and log messages
         │
         ▼
-stagetty runtime boundary
+stagetty: TTY stage and rolling output renderer
         │
-        ├─ project-specific implementation
-        ├─ tests and fixtures
-        └─ build or release artifacts
+        ▼
+live terminal progress and retained log lines
 ~~~
 
 The exact module names and package graph belong to the repository version being used. Start with the README and source entrypoints, then follow imports into the implementation boundary.
