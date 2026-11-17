@@ -1,0 +1,16 @@
+﻿# lodash-imports
+> Options for automatically importing Lodash APIs in an unplugin-auto-import setup.
+Canonical project page: https://projects.imba97.dev/projects/lodash-imports/
+GitHub: https://github.com/imba97/lodash-imports
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [lodash-imports — project overview](https://projects.imba97.dev/projects/lodash-imports/): Options for automatically importing Lodash APIs in an unplugin-auto-import setup.
+- [lodash-imports architecture](https://projects.imba97.dev/projects/lodash-imports/architecture/): Runtime boundaries, package roles, and design facts for lodash-imports.
+- [lodash-imports FAQ](https://projects.imba97.dev/projects/lodash-imports/faq/): Common questions about lodash-imports, its intended use, setup, runtime boundary, and source of truth.
+- [lodash-imports getting started](https://projects.imba97.dev/projects/lodash-imports/getting-started/): Install and run lodash-imports from its source repository, then verify the first local workflow.
+## 中文文档
+- [lodash-imports — 项目总览](https://projects.imba97.dev/zh/projects/lodash-imports/): 为 unplugin-auto-import 提供 Lodash 自动导入配置。
+- [lodash-imports 架构](https://projects.imba97.dev/zh/projects/lodash-imports/architecture/): lodash-imports 的运行边界、包职责和设计事实。
+- [lodash-imports FAQ](https://projects.imba97.dev/zh/projects/lodash-imports/faq/): 关于 lodash-imports 的用途、安装、运行边界和事实来源。
+- [lodash-imports 快速开始](https://projects.imba97.dev/zh/projects/lodash-imports/getting-started/): 从源仓库安装并运行 lodash-imports，完成第一次本地验证。

@@ -1,0 +1,18 @@
+{
+  "name": "imba97-projects-geo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm generate:geo && vitepress dev docs",
+    "build": "pnpm generate:geo && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "generate:project-pages": "esno scripts/generate-project-pages.ts",
+    "generate:geo": "esno scripts/generate-geo.ts",
+    "check:geo": "esno scripts/generate-geo.ts --check"
+  },
+  "devDependencies": {
+    "esno": "4.8.0",
+    "vitepress": "1.6.4"
+  }
+}

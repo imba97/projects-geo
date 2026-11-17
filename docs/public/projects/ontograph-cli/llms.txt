@@ -1,0 +1,16 @@
+﻿# ontograph-cli
+> An entity-relationship knowledge graph CLI for adding entities, relating them, and querying the graph.
+Canonical project page: https://projects.imba97.dev/projects/ontograph-cli/
+GitHub: https://github.com/imba97/ontograph-cli
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [ontograph-cli — project overview](https://projects.imba97.dev/projects/ontograph-cli/): An entity-relationship knowledge graph CLI for adding entities, relating them, and querying the graph.
+- [ontograph-cli architecture](https://projects.imba97.dev/projects/ontograph-cli/architecture/): Runtime boundaries, package roles, and design facts for ontograph-cli.
+- [ontograph-cli FAQ](https://projects.imba97.dev/projects/ontograph-cli/faq/): Common questions about ontograph-cli, its intended use, setup, runtime boundary, and source of truth.
+- [ontograph-cli getting started](https://projects.imba97.dev/projects/ontograph-cli/getting-started/): Install and run ontograph-cli from its source repository, then verify the first local workflow.
+## 中文文档
+- [ontograph-cli — 项目总览](https://projects.imba97.dev/zh/projects/ontograph-cli/): 实体关系知识图谱 CLI，用于添加实体、建立关系并查询图谱。
+- [ontograph-cli 架构](https://projects.imba97.dev/zh/projects/ontograph-cli/architecture/): ontograph-cli 的运行边界、包职责和设计事实。
+- [ontograph-cli FAQ](https://projects.imba97.dev/zh/projects/ontograph-cli/faq/): 关于 ontograph-cli 的用途、安装、运行边界和事实来源。
+- [ontograph-cli 快速开始](https://projects.imba97.dev/zh/projects/ontograph-cli/getting-started/): 从源仓库安装并运行 ontograph-cli，完成第一次本地验证。

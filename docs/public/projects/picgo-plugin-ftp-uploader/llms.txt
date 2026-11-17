@@ -1,0 +1,16 @@
+﻿# picgo-plugin-ftp-uploader
+> A PicGo uploader plugin for sending images through FTP.
+Canonical project page: https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/
+GitHub: https://github.com/imba97/picgo-plugin-ftp-uploader
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [picgo-plugin-ftp-uploader — project overview](https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/): A PicGo uploader plugin for sending images through FTP.
+- [picgo-plugin-ftp-uploader architecture](https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/architecture/): Runtime boundaries, package roles, and design facts for picgo-plugin-ftp-uploader.
+- [picgo-plugin-ftp-uploader FAQ](https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/faq/): Common questions about picgo-plugin-ftp-uploader, its intended use, setup, runtime boundary, and source of truth.
+- [picgo-plugin-ftp-uploader getting started](https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/getting-started/): Install and run picgo-plugin-ftp-uploader from its source repository, then verify the first local workflow.
+## 中文文档
+- [picgo-plugin-ftp-uploader — 项目总览](https://projects.imba97.dev/zh/projects/picgo-plugin-ftp-uploader/): 通过 FTP 上传图片的 PicGo 插件。
+- [picgo-plugin-ftp-uploader 架构](https://projects.imba97.dev/zh/projects/picgo-plugin-ftp-uploader/architecture/): picgo-plugin-ftp-uploader 的运行边界、包职责和设计事实。
+- [picgo-plugin-ftp-uploader FAQ](https://projects.imba97.dev/zh/projects/picgo-plugin-ftp-uploader/faq/): 关于 picgo-plugin-ftp-uploader 的用途、安装、运行边界和事实来源。
+- [picgo-plugin-ftp-uploader 快速开始](https://projects.imba97.dev/zh/projects/picgo-plugin-ftp-uploader/getting-started/): 从源仓库安装并运行 picgo-plugin-ftp-uploader，完成第一次本地验证。

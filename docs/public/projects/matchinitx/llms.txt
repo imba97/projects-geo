@@ -1,0 +1,16 @@
+﻿# matchinitx
+> A small matching utility for comparing structured values and patterns.
+Canonical project page: https://projects.imba97.dev/projects/matchinitx/
+GitHub: https://github.com/imba97/matchinitx
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [matchinitx — project overview](https://projects.imba97.dev/projects/matchinitx/): A small matching utility for comparing structured values and patterns.
+- [matchinitx architecture](https://projects.imba97.dev/projects/matchinitx/architecture/): Runtime boundaries, package roles, and design facts for matchinitx.
+- [matchinitx FAQ](https://projects.imba97.dev/projects/matchinitx/faq/): Common questions about matchinitx, its intended use, setup, runtime boundary, and source of truth.
+- [matchinitx getting started](https://projects.imba97.dev/projects/matchinitx/getting-started/): Install and run matchinitx from its source repository, then verify the first local workflow.
+## 中文文档
+- [matchinitx — 项目总览](https://projects.imba97.dev/zh/projects/matchinitx/): 用于比较结构化值和模式的小型匹配工具。
+- [matchinitx 架构](https://projects.imba97.dev/zh/projects/matchinitx/architecture/): matchinitx 的运行边界、包职责和设计事实。
+- [matchinitx FAQ](https://projects.imba97.dev/zh/projects/matchinitx/faq/): 关于 matchinitx 的用途、安装、运行边界和事实来源。
+- [matchinitx 快速开始](https://projects.imba97.dev/zh/projects/matchinitx/getting-started/): 从源仓库安装并运行 matchinitx，完成第一次本地验证。

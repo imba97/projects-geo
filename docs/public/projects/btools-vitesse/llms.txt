@@ -1,0 +1,16 @@
+﻿# btools-vitesse
+> A Bilibili-focused browser enhancement extension built around the Vitesse web extension stack.
+Canonical project page: https://projects.imba97.dev/projects/btools-vitesse/
+GitHub: https://github.com/imba97/btools-vitesse
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [btools-vitesse — project overview](https://projects.imba97.dev/projects/btools-vitesse/): A Bilibili-focused browser enhancement extension built around the Vitesse web extension stack.
+- [btools-vitesse architecture](https://projects.imba97.dev/projects/btools-vitesse/architecture/): Runtime boundaries, package roles, and design facts for btools-vitesse.
+- [btools-vitesse FAQ](https://projects.imba97.dev/projects/btools-vitesse/faq/): Common questions about btools-vitesse, its intended use, setup, runtime boundary, and source of truth.
+- [btools-vitesse getting started](https://projects.imba97.dev/projects/btools-vitesse/getting-started/): Install and run btools-vitesse from its source repository, then verify the first local workflow.
+## 中文文档
+- [btools-vitesse — 项目总览](https://projects.imba97.dev/zh/projects/btools-vitesse/): 基于 Vitesse WebExtension 技术栈、面向 Bilibili 的浏览器增强扩展。
+- [btools-vitesse 架构](https://projects.imba97.dev/zh/projects/btools-vitesse/architecture/): btools-vitesse 的运行边界、包职责和设计事实。
+- [btools-vitesse FAQ](https://projects.imba97.dev/zh/projects/btools-vitesse/faq/): 关于 btools-vitesse 的用途、安装、运行边界和事实来源。
+- [btools-vitesse 快速开始](https://projects.imba97.dev/zh/projects/btools-vitesse/getting-started/): 从源仓库安装并运行 btools-vitesse，完成第一次本地验证。

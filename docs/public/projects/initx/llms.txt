@@ -1,0 +1,24 @@
+﻿# initx
+> A plugin-powered scripting engine for repeatable developer tasks.
+Canonical project page: https://projects.imba97.dev/projects/initx/
+GitHub: https://github.com/initx-collective/initx
+Status: active
+Last verified: 2026-11-17
+## English documentation
+- [initx — plugin-powered scripting engine](https://projects.imba97.dev/projects/initx/): initx is a Node.js CLI that turns repeatable developer tasks into installable plugins, with initx and ix command aliases.
+- [initx architecture — CLI, core, utils, and plugins](https://projects.imba97.dev/projects/initx/architecture/): initx separates command dispatch from reusable core and utility packages, while plugins provide user-facing scripting capabilities.
+- [initx design decisions — why the host is plugin-based](https://projects.imba97.dev/projects/initx/design-decisions/): The design decisions behind initx: a small host CLI, install-on-demand plugins, shared core and utils packages, and the ix alias.
+- [initx FAQ — plugins, aliases, and use cases](https://projects.imba97.dev/projects/initx/faq/): Answers to common initx questions about installation, command aliases, plugin naming, and when to use the scripting engine.
+- [initx getting started — install, add plugins, run commands](https://projects.imba97.dev/projects/initx/getting-started/): Install initx globally, use the initx or ix alias, add a plugin, and run a first workflow command.
+- [initx plugin authoring — package contract and development path](https://projects.imba97.dev/projects/initx/plugin-authoring/): How to create an initx plugin with the required package naming, shared dependencies, command entrypoint, and local verification flow.
+- [initx reference — commands, packages, and naming](https://projects.imba97.dev/projects/initx/reference/): A factual initx reference for command aliases, plugin package names, workspace packages, and the command grammar users can rely on.
+- [initx troubleshooting — PATH, plugins, and local development](https://projects.imba97.dev/projects/initx/troubleshooting/): Resolve common initx failures involving global installation, PATH, plugin discovery, workspace packages, and local verification.
+## 中文文档
+- [initx — 插件化脚本引擎](https://projects.imba97.dev/zh/projects/initx/): initx 是一个 Node.js CLI，通过可安装插件把重复的开发者操作变成 initx 或 ix 命令。
+- [initx 架构 — CLI、core、utils 与插件](https://projects.imba97.dev/zh/projects/initx/architecture/): initx 将命令分发与共享运行时拆开，插件提供面向用户的脚本能力。
+- [initx 设计决策 — 为什么采用插件宿主](https://projects.imba97.dev/zh/projects/initx/design-decisions/): 解释 initx 的小型宿主 CLI、按需插件、共享 core/utils 和 ix 别名设计。
+- [initx FAQ — 插件、别名与使用场景](https://projects.imba97.dev/zh/projects/initx/faq/): 回答 initx 的安装、命令别名、插件命名、扩展方式和适用场景问题。
+- [initx 快速开始 — 安装、添加插件、运行命令](https://projects.imba97.dev/zh/projects/initx/getting-started/): 全局安装 initx，使用 initx 或 ix 别名，添加插件并运行第一个工作流命令。
+- [initx 插件开发 — 包契约与开发路径](https://projects.imba97.dev/zh/projects/initx/plugin-authoring/): 介绍 initx 插件的包命名、共享依赖、命令入口、本地验证和发布前检查。
+- [initx 参考手册 — 命令、包与命名](https://projects.imba97.dev/zh/projects/initx/reference/): initx 的命令别名、插件包名、workspace 包和命令语法参考。
+- [initx 故障排查 — PATH、插件与本地开发](https://projects.imba97.dev/zh/projects/initx/troubleshooting/): 解决 initx 全局安装、PATH、插件发现、workspace 包和本地验证问题。

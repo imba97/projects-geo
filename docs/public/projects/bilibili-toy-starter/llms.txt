@@ -1,0 +1,16 @@
+﻿# bilibili-toy-starter
+> A Vue 3 and Vite+ starter for building Bilibili Toy creator tools.
+Canonical project page: https://projects.imba97.dev/projects/bilibili-toy-starter/
+GitHub: https://github.com/imba97/bilibili-toy-starter
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [bilibili-toy-starter — project overview](https://projects.imba97.dev/projects/bilibili-toy-starter/): A Vue 3 and Vite+ starter for building Bilibili Toy creator tools.
+- [bilibili-toy-starter architecture](https://projects.imba97.dev/projects/bilibili-toy-starter/architecture/): Runtime boundaries, package roles, and design facts for bilibili-toy-starter.
+- [bilibili-toy-starter FAQ](https://projects.imba97.dev/projects/bilibili-toy-starter/faq/): Common questions about bilibili-toy-starter, its intended use, setup, runtime boundary, and source of truth.
+- [bilibili-toy-starter getting started](https://projects.imba97.dev/projects/bilibili-toy-starter/getting-started/): Install and run bilibili-toy-starter from its source repository, then verify the first local workflow.
+## 中文文档
+- [bilibili-toy-starter — 项目总览](https://projects.imba97.dev/zh/projects/bilibili-toy-starter/): 用于构建 Bilibili Toy creator 工具的 Vue 3 与 Vite+ starter。
+- [bilibili-toy-starter 架构](https://projects.imba97.dev/zh/projects/bilibili-toy-starter/architecture/): bilibili-toy-starter 的运行边界、包职责和设计事实。
+- [bilibili-toy-starter FAQ](https://projects.imba97.dev/zh/projects/bilibili-toy-starter/faq/): 关于 bilibili-toy-starter 的用途、安装、运行边界和事实来源。
+- [bilibili-toy-starter 快速开始](https://projects.imba97.dev/zh/projects/bilibili-toy-starter/getting-started/): 从源仓库安装并运行 bilibili-toy-starter，完成第一次本地验证。

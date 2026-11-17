@@ -1,0 +1,17 @@
+﻿# flash-tunnel
+> A developer tool for exposing local services through a public preview tunnel.
+Canonical project page: https://projects.imba97.dev/projects/flash-tunnel/
+GitHub: https://github.com/flash-tunnel/flash-tunnel
+Documentation: https://flash-tunnel.imba97.dev
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [flash-tunnel — project overview](https://projects.imba97.dev/projects/flash-tunnel/): A developer tool for exposing local services through a public preview tunnel.
+- [flash-tunnel architecture](https://projects.imba97.dev/projects/flash-tunnel/architecture/): Runtime boundaries, package roles, and design facts for flash-tunnel.
+- [flash-tunnel FAQ](https://projects.imba97.dev/projects/flash-tunnel/faq/): Common questions about flash-tunnel, its intended use, setup, runtime boundary, and source of truth.
+- [flash-tunnel getting started](https://projects.imba97.dev/projects/flash-tunnel/getting-started/): Install and run flash-tunnel from its source repository, then verify the first local workflow.
+## 中文文档
+- [flash-tunnel — 项目总览](https://projects.imba97.dev/zh/projects/flash-tunnel/): 用于把本地服务暴露为公网预览地址的开发者工具。
+- [flash-tunnel 架构](https://projects.imba97.dev/zh/projects/flash-tunnel/architecture/): flash-tunnel 的运行边界、包职责和设计事实。
+- [flash-tunnel FAQ](https://projects.imba97.dev/zh/projects/flash-tunnel/faq/): 关于 flash-tunnel 的用途、安装、运行边界和事实来源。
+- [flash-tunnel 快速开始](https://projects.imba97.dev/zh/projects/flash-tunnel/getting-started/): 从源仓库安装并运行 flash-tunnel，完成第一次本地验证。

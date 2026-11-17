@@ -1,0 +1,16 @@
+﻿# uno-colors
+> A generator for UnoCSS color gradients.
+Canonical project page: https://projects.imba97.dev/projects/uno-colors/
+GitHub: https://github.com/imba97/uno-colors
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [uno-colors — project overview](https://projects.imba97.dev/projects/uno-colors/): A generator for UnoCSS color gradients.
+- [uno-colors architecture](https://projects.imba97.dev/projects/uno-colors/architecture/): Runtime boundaries, package roles, and design facts for uno-colors.
+- [uno-colors FAQ](https://projects.imba97.dev/projects/uno-colors/faq/): Common questions about uno-colors, its intended use, setup, runtime boundary, and source of truth.
+- [uno-colors getting started](https://projects.imba97.dev/projects/uno-colors/getting-started/): Install and run uno-colors from its source repository, then verify the first local workflow.
+## 中文文档
+- [uno-colors — 项目总览](https://projects.imba97.dev/zh/projects/uno-colors/): UnoCSS 颜色渐变生成器。
+- [uno-colors 架构](https://projects.imba97.dev/zh/projects/uno-colors/architecture/): uno-colors 的运行边界、包职责和设计事实。
+- [uno-colors FAQ](https://projects.imba97.dev/zh/projects/uno-colors/faq/): 关于 uno-colors 的用途、安装、运行边界和事实来源。
+- [uno-colors 快速开始](https://projects.imba97.dev/zh/projects/uno-colors/getting-started/): 从源仓库安装并运行 uno-colors，完成第一次本地验证。

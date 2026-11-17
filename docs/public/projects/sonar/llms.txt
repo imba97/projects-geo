@@ -1,0 +1,16 @@
+﻿# Sonar
+> A HarmonyOS music client compatible with SonicAPI and Subsonic servers such as Navidrome.
+Canonical project page: https://projects.imba97.dev/projects/sonar/
+GitHub: https://github.com/imba97/sonar
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [Sonar — project overview](https://projects.imba97.dev/projects/sonar/): A HarmonyOS music client compatible with SonicAPI and Subsonic servers such as Navidrome.
+- [Sonar architecture](https://projects.imba97.dev/projects/sonar/architecture/): Runtime boundaries, package roles, and design facts for Sonar.
+- [Sonar FAQ](https://projects.imba97.dev/projects/sonar/faq/): Common questions about Sonar, its intended use, setup, runtime boundary, and source of truth.
+- [Sonar getting started](https://projects.imba97.dev/projects/sonar/getting-started/): Install and run Sonar from its source repository, then verify the first local workflow.
+## 中文文档
+- [Sonar — 项目总览](https://projects.imba97.dev/zh/projects/sonar/): 兼容 SonicAPI/Subsonic 服务器（如 Navidrome）的 HarmonyOS 音乐客户端。
+- [Sonar 架构](https://projects.imba97.dev/zh/projects/sonar/architecture/): Sonar 的运行边界、包职责和设计事实。
+- [Sonar FAQ](https://projects.imba97.dev/zh/projects/sonar/faq/): 关于 Sonar 的用途、安装、运行边界和事实来源。
+- [Sonar 快速开始](https://projects.imba97.dev/zh/projects/sonar/getting-started/): 从源仓库安装并运行 Sonar，完成第一次本地验证。

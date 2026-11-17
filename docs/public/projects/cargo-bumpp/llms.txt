@@ -1,0 +1,24 @@
+﻿# cargo-bumpp
+> An interactive, zero-dependency release version bumping tool for Cargo projects.
+Canonical project page: https://projects.imba97.dev/projects/cargo-bumpp/
+GitHub: https://github.com/imba97/cargo-bumpp
+Status: active
+Last verified: 2026-11-17
+## English documentation
+- [cargo-bumpp — interactive Cargo release versioning](https://projects.imba97.dev/projects/cargo-bumpp/): cargo-bumpp is a zero-dependency Rust CLI that bumps Cargo versions, updates the lockfile, commits, tags, and pushes.
+- [cargo-bumpp architecture — plan, rollback, workspace, and git](https://projects.imba97.dev/projects/cargo-bumpp/architecture/): cargo-bumpp builds a release plan from Cargo metadata, applies version changes, rolls back local failures, and pushes one explicit tag.
+- [cargo-bumpp CI and release — handing a tag to automation](https://projects.imba97.dev/projects/cargo-bumpp/ci-and-release/): How cargo-bumpp fits into a CI release pipeline, what it intentionally stops before, and how to retry a failed remote push.
+- [cargo-bumpp FAQ — release flow, Cargo workspaces, and comparisons](https://projects.imba97.dev/projects/cargo-bumpp/faq/): Answers to cargo-bumpp questions about publishing, changelogs, rollback, workspaces, retagging, and similar Cargo tools.
+- [cargo-bumpp getting started — install and run a release bump](https://projects.imba97.dev/projects/cargo-bumpp/getting-started/): Install cargo-bumpp, run an interactive or explicit version bump, inspect the plan, and control commit, tag, and push behavior.
+- [cargo-bumpp reference — release levels, flags, and exit codes](https://projects.imba97.dev/projects/cargo-bumpp/reference/): A factual cargo-bumpp reference for commands, release levels, flags, configuration precedence, and process exit codes.
+- [cargo-bumpp troubleshooting — Git, signing, prompts, and workspaces](https://projects.imba97.dev/projects/cargo-bumpp/troubleshooting/): Resolve cargo-bumpp failures involving dirty worktrees, GPG signing, non-interactive terminals, workspace versions, and remote pushes.
+- [cargo-bumpp workspace and rollback — versions, metadata, and recovery](https://projects.imba97.dev/projects/cargo-bumpp/workspace-and-rollback/): How cargo-bumpp discovers Cargo workspace versions, handles path dependencies, and restores local state when a release step fails.
+## 中文文档
+- [cargo-bumpp — 交互式 Cargo 版本发布工具](https://projects.imba97.dev/zh/projects/cargo-bumpp/): cargo-bumpp 是一个零依赖 Rust CLI，用于升级 Cargo 版本、更新 lockfile、提交、打 tag 和推送。
+- [cargo-bumpp 架构 — 计划、回滚、workspace 与 Git](https://projects.imba97.dev/zh/projects/cargo-bumpp/architecture/): cargo-bumpp 从 Cargo metadata 生成发布计划，应用版本改动，回滚本地失败，并推送一个明确的 tag。
+- [cargo-bumpp CI 与发布 — 把 tag 交给自动化](https://projects.imba97.dev/zh/projects/cargo-bumpp/ci-and-release/): 说明 cargo-bumpp 如何接入 CI 发布流程、它在哪一步停止，以及远端推送失败如何重试。
+- [cargo-bumpp FAQ — 发布流程、Cargo workspace 与对比](https://projects.imba97.dev/zh/projects/cargo-bumpp/faq/): 回答 cargo-bumpp 关于发布、changelog、回滚、workspace、retag 以及相似工具的问题。
+- [cargo-bumpp 快速开始 — 安装并完成第一次升级](https://projects.imba97.dev/zh/projects/cargo-bumpp/getting-started/): 安装 cargo-bumpp，运行交互式或明确版本升级，查看计划并控制提交、tag 与推送。
+- [cargo-bumpp 参考手册 — 升级级别、flags 与退出码](https://projects.imba97.dev/zh/projects/cargo-bumpp/reference/): cargo-bumpp 的命令、升级级别、flags、配置优先级和进程退出码参考。
+- [cargo-bumpp 故障排查 — Git、签名、提示与 workspace](https://projects.imba97.dev/zh/projects/cargo-bumpp/troubleshooting/): 解决 cargo-bumpp 工作树、GPG 签名、非交互终端、workspace 版本和远端推送问题。
+- [cargo-bumpp workspace 与回滚 — 版本、metadata 和恢复](https://projects.imba97.dev/zh/projects/cargo-bumpp/workspace-and-rollback/): 说明 cargo-bumpp 如何发现 Cargo workspace 版本、处理 path dependency，并在发布步骤失败时恢复本地状态。

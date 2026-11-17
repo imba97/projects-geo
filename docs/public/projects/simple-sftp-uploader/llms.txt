@@ -1,0 +1,16 @@
+﻿# simple-sftp-uploader
+> A bundler-agnostic plugin for uploading a project dist directory to a remote server over SFTP.
+Canonical project page: https://projects.imba97.dev/projects/simple-sftp-uploader/
+GitHub: https://github.com/imba97/simple-sftp-uploader
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [simple-sftp-uploader — project overview](https://projects.imba97.dev/projects/simple-sftp-uploader/): A bundler-agnostic plugin for uploading a project dist directory to a remote server over SFTP.
+- [simple-sftp-uploader architecture](https://projects.imba97.dev/projects/simple-sftp-uploader/architecture/): Runtime boundaries, package roles, and design facts for simple-sftp-uploader.
+- [simple-sftp-uploader FAQ](https://projects.imba97.dev/projects/simple-sftp-uploader/faq/): Common questions about simple-sftp-uploader, its intended use, setup, runtime boundary, and source of truth.
+- [simple-sftp-uploader getting started](https://projects.imba97.dev/projects/simple-sftp-uploader/getting-started/): Install and run simple-sftp-uploader from its source repository, then verify the first local workflow.
+## 中文文档
+- [simple-sftp-uploader — 项目总览](https://projects.imba97.dev/zh/projects/simple-sftp-uploader/): 与 bundler 无关的插件，用于通过 SFTP 把项目 dist 上传到远端服务器。
+- [simple-sftp-uploader 架构](https://projects.imba97.dev/zh/projects/simple-sftp-uploader/architecture/): simple-sftp-uploader 的运行边界、包职责和设计事实。
+- [simple-sftp-uploader FAQ](https://projects.imba97.dev/zh/projects/simple-sftp-uploader/faq/): 关于 simple-sftp-uploader 的用途、安装、运行边界和事实来源。
+- [simple-sftp-uploader 快速开始](https://projects.imba97.dev/zh/projects/simple-sftp-uploader/getting-started/): 从源仓库安装并运行 simple-sftp-uploader，完成第一次本地验证。

@@ -1,0 +1,16 @@
+﻿# stagetty
+> A TTY stage renderer with rolling log output for CLI tools.
+Canonical project page: https://projects.imba97.dev/projects/stagetty/
+GitHub: https://github.com/imba97/stagetty
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [stagetty — project overview](https://projects.imba97.dev/projects/stagetty/): A TTY stage renderer with rolling log output for CLI tools.
+- [stagetty architecture](https://projects.imba97.dev/projects/stagetty/architecture/): Runtime boundaries, package roles, and design facts for stagetty.
+- [stagetty FAQ](https://projects.imba97.dev/projects/stagetty/faq/): Common questions about stagetty, its intended use, setup, runtime boundary, and source of truth.
+- [stagetty getting started](https://projects.imba97.dev/projects/stagetty/getting-started/): Install and run stagetty from its source repository, then verify the first local workflow.
+## 中文文档
+- [stagetty — 项目总览](https://projects.imba97.dev/zh/projects/stagetty/): 为 CLI 工具提供滚动日志输出的 TTY stage renderer。
+- [stagetty 架构](https://projects.imba97.dev/zh/projects/stagetty/architecture/): stagetty 的运行边界、包职责和设计事实。
+- [stagetty FAQ](https://projects.imba97.dev/zh/projects/stagetty/faq/): 关于 stagetty 的用途、安装、运行边界和事实来源。
+- [stagetty 快速开始](https://projects.imba97.dev/zh/projects/stagetty/getting-started/): 从源仓库安装并运行 stagetty，完成第一次本地验证。

@@ -1,0 +1,16 @@
+﻿# markdown-it-extra-link
+> A markdown-it extension for typed inline links such as {link:post:123}.
+Canonical project page: https://projects.imba97.dev/projects/markdown-it-extra-link/
+GitHub: https://github.com/imba97/markdown-it-extra-link
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [markdown-it-extra-link — project overview](https://projects.imba97.dev/projects/markdown-it-extra-link/): A markdown-it extension for typed inline links such as {link:post:123}.
+- [markdown-it-extra-link architecture](https://projects.imba97.dev/projects/markdown-it-extra-link/architecture/): Runtime boundaries, package roles, and design facts for markdown-it-extra-link.
+- [markdown-it-extra-link FAQ](https://projects.imba97.dev/projects/markdown-it-extra-link/faq/): Common questions about markdown-it-extra-link, its intended use, setup, runtime boundary, and source of truth.
+- [markdown-it-extra-link getting started](https://projects.imba97.dev/projects/markdown-it-extra-link/getting-started/): Install and run markdown-it-extra-link from its source repository, then verify the first local workflow.
+## 中文文档
+- [markdown-it-extra-link — 项目总览](https://projects.imba97.dev/zh/projects/markdown-it-extra-link/): 为 markdown-it 增加 `{link:post:123}` 这类类型化行内链接。
+- [markdown-it-extra-link 架构](https://projects.imba97.dev/zh/projects/markdown-it-extra-link/architecture/): markdown-it-extra-link 的运行边界、包职责和设计事实。
+- [markdown-it-extra-link FAQ](https://projects.imba97.dev/zh/projects/markdown-it-extra-link/faq/): 关于 markdown-it-extra-link 的用途、安装、运行边界和事实来源。
+- [markdown-it-extra-link 快速开始](https://projects.imba97.dev/zh/projects/markdown-it-extra-link/getting-started/): 从源仓库安装并运行 markdown-it-extra-link，完成第一次本地验证。

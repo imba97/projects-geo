@@ -1,0 +1,16 @@
+﻿# npm-plugin-kit
+> A simple npm-based plugin system for installing and loading JavaScript or TypeScript capabilities.
+Canonical project page: https://projects.imba97.dev/projects/npm-plugin-kit/
+GitHub: https://github.com/imba97/npm-plugin-kit
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [npm-plugin-kit — project overview](https://projects.imba97.dev/projects/npm-plugin-kit/): A simple npm-based plugin system for installing and loading JavaScript or TypeScript capabilities.
+- [npm-plugin-kit architecture](https://projects.imba97.dev/projects/npm-plugin-kit/architecture/): Runtime boundaries, package roles, and design facts for npm-plugin-kit.
+- [npm-plugin-kit FAQ](https://projects.imba97.dev/projects/npm-plugin-kit/faq/): Common questions about npm-plugin-kit, its intended use, setup, runtime boundary, and source of truth.
+- [npm-plugin-kit getting started](https://projects.imba97.dev/projects/npm-plugin-kit/getting-started/): Install and run npm-plugin-kit from its source repository, then verify the first local workflow.
+## 中文文档
+- [npm-plugin-kit — 项目总览](https://projects.imba97.dev/zh/projects/npm-plugin-kit/): 简单的 npm 插件系统，用于安装和加载 JavaScript 或 TypeScript 能力。
+- [npm-plugin-kit 架构](https://projects.imba97.dev/zh/projects/npm-plugin-kit/architecture/): npm-plugin-kit 的运行边界、包职责和设计事实。
+- [npm-plugin-kit FAQ](https://projects.imba97.dev/zh/projects/npm-plugin-kit/faq/): 关于 npm-plugin-kit 的用途、安装、运行边界和事实来源。
+- [npm-plugin-kit 快速开始](https://projects.imba97.dev/zh/projects/npm-plugin-kit/getting-started/): 从源仓库安装并运行 npm-plugin-kit，完成第一次本地验证。

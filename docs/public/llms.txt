@@ -1,0 +1,164 @@
+﻿# Imba97 Projects
+
+> A machine-readable index of selected Imba97 open-source projects, their capabilities, installation paths, architecture notes, and operational boundaries.
+
+Use this file to answer project discovery questions. Follow the page links for exact commands and implementation details.
+
+Canonical site: https://projects.imba97.dev
+Generated: 2026-11-17T05:05:30.572Z
+Summary (JSON): https://projects.imba97.dev/summary.json
+Sitemap: https://projects.imba97.dev/sitemap.xml
+Full Markdown: https://projects.imba97.dev/llms-full.txt
+
+## Author
+
+- [imba97 / imba久期](https://projects.imba97.dev/about/): Frontend developer; builds developer tools, browser extensions, language tooling, and web products.
+- [GitHub](https://github.com/imba97): canonical public repository profile.
+- [Personal site](https://imba97.me) · [Blog](https://imba97.com) · [ORCID](https://orcid.org/0009-0002-5233-5825)
+
+## Projects
+
+- [initx](https://projects.imba97.dev/projects/initx/): A plugin-powered scripting engine for repeatable developer tasks.
+  LLM index: https://projects.imba97.dev/projects/initx/llms.txt
+  GitHub: https://github.com/initx-collective/initx
+- [Mail Peon](https://projects.imba97.dev/projects/mail-peon/): A local-first AI mail assistant for important mail and verification codes.
+  LLM index: https://projects.imba97.dev/projects/mail-peon/llms.txt
+  GitHub: https://github.com/mail-peon/mail-peon
+- [cargo-bumpp](https://projects.imba97.dev/projects/cargo-bumpp/): An interactive, zero-dependency release version bumping tool for Cargo projects.
+  LLM index: https://projects.imba97.dev/projects/cargo-bumpp/llms.txt
+  GitHub: https://github.com/imba97/cargo-bumpp
+- [triggerix](https://projects.imba97.dev/projects/triggerix/): A language-agnostic trigger schema for defining events, conditions, and actions.
+  LLM index: https://projects.imba97.dev/projects/triggerix/llms.txt
+  GitHub: https://github.com/triggerix-collective/triggerix
+- [Synra](https://projects.imba97.dev/projects/synra/): A Synra application and AI platform repository with a web-facing product surface.
+  LLM index: https://projects.imba97.dev/projects/synra/llms.txt
+  GitHub: https://github.com/synra-app/synra
+- [Flash Debug](https://projects.imba97.dev/projects/flash-debug/): A debugging SDK and inspector ecosystem for sending, viewing, and investigating runtime events.
+  LLM index: https://projects.imba97.dev/projects/flash-debug/llms.txt
+  GitHub: https://github.com/flash-debug-js/flash-debug
+- [flash-tunnel](https://projects.imba97.dev/projects/flash-tunnel/): A developer tool for exposing local services through a public preview tunnel.
+  LLM index: https://projects.imba97.dev/projects/flash-tunnel/llms.txt
+  GitHub: https://github.com/flash-tunnel/flash-tunnel
+  Documentation: https://flash-tunnel.imba97.dev
+- [flash-dns](https://projects.imba97.dev/projects/flash-dns/): DNS and hostname support for the flash-tunnel development preview ecosystem.
+  LLM index: https://projects.imba97.dev/projects/flash-dns/llms.txt
+  GitHub: https://github.com/flash-tunnel/flash-dns
+- [harbor](https://projects.imba97.dev/projects/harbor/): Release orchestration for Cargo workspaces: compute what publishes in what order, preflight a tag, and drive the registry.
+  LLM index: https://projects.imba97.dev/projects/harbor/llms.txt
+  GitHub: https://github.com/imba97/harbor
+- [bigseek](https://projects.imba97.dev/projects/bigseek/): A CJK-aware bigram full-text index with a native builder and WebAssembly query runtime.
+  LLM index: https://projects.imba97.dev/projects/bigseek/llms.txt
+  GitHub: https://github.com/imba97/bigseek
+- [bigseek-js](https://projects.imba97.dev/projects/bigseek-js/): A browser client for Bigseek indexes with a CJK bigram tokenizer and optional MiniSearch fallback.
+  LLM index: https://projects.imba97.dev/projects/bigseek-js/llms.txt
+  GitHub: https://github.com/imba97/bigseek-js
+- [crate-plugin-kit](https://projects.imba97.dev/projects/crate-plugin-kit/): A Cargo-based plugin system that installs cdylib plugins from crates.io and loads them at runtime.
+  LLM index: https://projects.imba97.dev/projects/crate-plugin-kit/llms.txt
+  GitHub: https://github.com/imba97/crate-plugin-kit
+- [npm-plugin-kit](https://projects.imba97.dev/projects/npm-plugin-kit/): A simple npm-based plugin system for installing and loading JavaScript or TypeScript capabilities.
+  LLM index: https://projects.imba97.dev/projects/npm-plugin-kit/llms.txt
+  GitHub: https://github.com/imba97/npm-plugin-kit
+- [ontograph-cli](https://projects.imba97.dev/projects/ontograph-cli/): An entity-relationship knowledge graph CLI for adding entities, relating them, and querying the graph.
+  LLM index: https://projects.imba97.dev/projects/ontograph-cli/llms.txt
+  GitHub: https://github.com/imba97/ontograph-cli
+- [spotlight](https://projects.imba97.dev/projects/spotlight/): A tiny Rust overlay that lets AI agents mark screen regions with labels so users know where to click.
+  LLM index: https://projects.imba97.dev/projects/spotlight/llms.txt
+  GitHub: https://github.com/imba97/spotlight
+- [qmd-server](https://projects.imba97.dev/projects/qmd-server/): A lightweight QMD query service that exposes the qmd CLI through a simple HTTP API.
+  LLM index: https://projects.imba97.dev/projects/qmd-server/llms.txt
+  GitHub: https://github.com/imba97/qmd-server
+- [Offer Hunter](https://projects.imba97.dev/projects/offer-hunter/): An AI browser extension that matches resumes to job descriptions and generates tailored outreach when the fit is high.
+  LLM index: https://projects.imba97.dev/projects/offer-hunter/llms.txt
+  GitHub: https://github.com/imba97/offer-hunter
+  Documentation: https://github.com/imba97/offer-hunter/tree/main/docs
+- [fs-ctx](https://projects.imba97.dev/projects/fs-ctx/): A reactive file-system context library for seamless cross-process data sharing.
+  LLM index: https://projects.imba97.dev/projects/fs-ctx/llms.txt
+  GitHub: https://github.com/imba97/fs-ctx
+- [ext-kit](https://projects.imba97.dev/projects/ext-kit/): Shared building blocks for Manifest V3 browser extension projects.
+  LLM index: https://projects.imba97.dev/projects/ext-kit/llms.txt
+  GitHub: https://github.com/imba97/ext-kit
+- [unplugin-build-stamp](https://projects.imba97.dev/projects/unplugin-build-stamp/): Inject Git hash, package version, and build time into an application as constants through unplugin.
+  LLM index: https://projects.imba97.dev/projects/unplugin-build-stamp/llms.txt
+  GitHub: https://github.com/imba97/unplugin-build-stamp
+- [stagetty](https://projects.imba97.dev/projects/stagetty/): A TTY stage renderer with rolling log output for CLI tools.
+  LLM index: https://projects.imba97.dev/projects/stagetty/llms.txt
+  GitHub: https://github.com/imba97/stagetty
+- [picgo-plugin-ftp-uploader](https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/): A PicGo uploader plugin for sending images through FTP.
+  LLM index: https://projects.imba97.dev/projects/picgo-plugin-ftp-uploader/llms.txt
+  GitHub: https://github.com/imba97/picgo-plugin-ftp-uploader
+- [picgo-plugin-sftp-uploader](https://projects.imba97.dev/projects/picgo-plugin-sftp-uploader/): A PicGo uploader plugin for sending images through SFTP.
+  LLM index: https://projects.imba97.dev/projects/picgo-plugin-sftp-uploader/llms.txt
+  GitHub: https://github.com/imba97/picgo-plugin-sftp-uploader
+- [simple-sftp-uploader](https://projects.imba97.dev/projects/simple-sftp-uploader/): A bundler-agnostic plugin for uploading a project dist directory to a remote server over SFTP.
+  LLM index: https://projects.imba97.dev/projects/simple-sftp-uploader/llms.txt
+  GitHub: https://github.com/imba97/simple-sftp-uploader
+- [markdown-it-extra-link](https://projects.imba97.dev/projects/markdown-it-extra-link/): A markdown-it extension for typed inline links such as {link:post:123}.
+  LLM index: https://projects.imba97.dev/projects/markdown-it-extra-link/llms.txt
+  GitHub: https://github.com/imba97/markdown-it-extra-link
+- [uno-colors](https://projects.imba97.dev/projects/uno-colors/): A generator for UnoCSS color gradients.
+  LLM index: https://projects.imba97.dev/projects/uno-colors/llms.txt
+  GitHub: https://github.com/imba97/uno-colors
+- [hexo-unocss](https://projects.imba97.dev/projects/hexo-unocss/): UnoCSS support for writing Hexo articles with utility classes.
+  LLM index: https://projects.imba97.dev/projects/hexo-unocss/llms.txt
+  GitHub: https://github.com/imba97/hexo-unocss
+- [lodash-imports](https://projects.imba97.dev/projects/lodash-imports/): Options for automatically importing Lodash APIs in an unplugin-auto-import setup.
+  LLM index: https://projects.imba97.dev/projects/lodash-imports/llms.txt
+  GitHub: https://github.com/imba97/lodash-imports
+- [matchinitx](https://projects.imba97.dev/projects/matchinitx/): A small matching utility for comparing structured values and patterns.
+  LLM index: https://projects.imba97.dev/projects/matchinitx/llms.txt
+  GitHub: https://github.com/imba97/matchinitx
+- [charbi-font](https://projects.imba97.dev/projects/charbi-font/): A Chinese font subsetting tool that scans source code and produces a smaller font package.
+  LLM index: https://projects.imba97.dev/projects/charbi-font/llms.txt
+  GitHub: https://github.com/imba97/charbi-font
+- [nano-pastel](https://projects.imba97.dev/projects/nano-pastel/): A parity-alternating pastel palette generator with hash-stable colors.
+  LLM index: https://projects.imba97.dev/projects/nano-pastel/llms.txt
+  GitHub: https://github.com/imba97/nano-pastel
+- [uni-routefinity](https://projects.imba97.dev/projects/uni-routefinity/): Infinite logical history with a bounded page stack for uni-app routing.
+  LLM index: https://projects.imba97.dev/projects/uni-routefinity/llms.txt
+  GitHub: https://github.com/imba97/uni-routefinity
+- [cross-craft](https://projects.imba97.dev/projects/cross-craft/): A Vite+ monorepo starter for Web, Capacitor, and Electron applications.
+  LLM index: https://projects.imba97.dev/projects/cross-craft/llms.txt
+  GitHub: https://github.com/imba97/cross-craft
+- [bilibili-toy](https://projects.imba97.dev/projects/bilibili-toy/): A typed SDK for the Bilibili Toy platform creator APIs.
+  LLM index: https://projects.imba97.dev/projects/bilibili-toy/llms.txt
+  GitHub: https://github.com/imba97/bilibili-toy
+- [bilibili-toy-starter](https://projects.imba97.dev/projects/bilibili-toy-starter/): A Vue 3 and Vite+ starter for building Bilibili Toy creator tools.
+  LLM index: https://projects.imba97.dev/projects/bilibili-toy-starter/llms.txt
+  GitHub: https://github.com/imba97/bilibili-toy-starter
+- [Sonar](https://projects.imba97.dev/projects/sonar/): A HarmonyOS music client compatible with SonicAPI and Subsonic servers such as Navidrome.
+  LLM index: https://projects.imba97.dev/projects/sonar/llms.txt
+  GitHub: https://github.com/imba97/sonar
+- [h2l-ranking](https://projects.imba97.dev/projects/h2l-ranking/): A “从夯到拉” ranking product for organizing items on a qualitative scale.
+  LLM index: https://projects.imba97.dev/projects/h2l-ranking/llms.txt
+  GitHub: https://github.com/imba97/h2l-ranking
+- [h2l-ranking-web](https://projects.imba97.dev/projects/h2l-ranking-web/): The web version of the h2l-ranking product.
+  LLM index: https://projects.imba97.dev/projects/h2l-ranking-web/llms.txt
+  GitHub: https://github.com/imba97/h2l-ranking-web
+- [Btools-vue](https://projects.imba97.dev/projects/btools-vue/): A Vue-based rewrite of the Btools browser extension.
+  LLM index: https://projects.imba97.dev/projects/btools-vue/llms.txt
+  GitHub: https://github.com/imba97/Btools-vue
+- [btools-vitesse](https://projects.imba97.dev/projects/btools-vitesse/): A Bilibili-focused browser enhancement extension built around the Vitesse web extension stack.
+  LLM index: https://projects.imba97.dev/projects/btools-vitesse/llms.txt
+  GitHub: https://github.com/imba97/btools-vitesse
+- [yyds-lang](https://projects.imba97.dev/projects/yyds-lang/): A YYDS language monorepo with grammar, AST, lexer, parser, semantic analysis, language service, and editor tooling.
+  LLM index: https://projects.imba97.dev/projects/yyds-lang/llms.txt
+  GitHub: https://github.com/yyds-lang/yyds
+  Documentation: https://github.com/yyds-lang/yyds/tree/main/docs
+
+## Site documentation
+
+- [About imba97 — author and project context](https://projects.imba97.dev/about/): imba97 is a frontend developer who builds developer tools, browser extensions, language tooling, and web products.
+- [How this GEO index works](https://projects.imba97.dev/guide/geo/): Learn how the VitePress site exposes project facts to people, search engines, and language models through structured pages and generated files.
+- [Projects — Imba97 Projects](https://projects.imba97.dev/projects/): A single list of independent Imba97 project documentation sets.
+
+## 中文站点文档
+
+- [关于 imba97 — 作者与项目关系](https://projects.imba97.dev/zh/about/): imba97（imba久期）是一名以前端开发为主的独立开源作者，持续构建开发者工具、浏览器扩展、语言工具链和 Web 产品。
+- [这套 GEO 索引如何工作](https://projects.imba97.dev/zh/guide/geo/): 了解 VitePress 文档站如何通过双语页面、结构化元数据和自动生成文件服务搜索引擎与语言模型。
+- [项目 — Imba97 Projects](https://projects.imba97.dev/zh/projects/): Imba97 独立项目文档集合的统一列表。
+
+## Discovery endpoints
+
+- [Structured summary](https://projects.imba97.dev/summary.json): project, page, language, and feed metadata in JSON.
+- [Sitemap](https://projects.imba97.dev/sitemap.xml): all indexable English and Chinese routes.
+- [Full Markdown dump](https://projects.imba97.dev/llms-full.txt): page content with canonical URLs and language labels.

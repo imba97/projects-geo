@@ -1,0 +1,16 @@
+﻿# crate-plugin-kit
+> A Cargo-based plugin system that installs cdylib plugins from crates.io and loads them at runtime.
+Canonical project page: https://projects.imba97.dev/projects/crate-plugin-kit/
+GitHub: https://github.com/imba97/crate-plugin-kit
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [crate-plugin-kit — project overview](https://projects.imba97.dev/projects/crate-plugin-kit/): A Cargo-based plugin system that installs cdylib plugins from crates.io and loads them at runtime.
+- [crate-plugin-kit architecture](https://projects.imba97.dev/projects/crate-plugin-kit/architecture/): Runtime boundaries, package roles, and design facts for crate-plugin-kit.
+- [crate-plugin-kit FAQ](https://projects.imba97.dev/projects/crate-plugin-kit/faq/): Common questions about crate-plugin-kit, its intended use, setup, runtime boundary, and source of truth.
+- [crate-plugin-kit getting started](https://projects.imba97.dev/projects/crate-plugin-kit/getting-started/): Install and run crate-plugin-kit from its source repository, then verify the first local workflow.
+## 中文文档
+- [crate-plugin-kit — 项目总览](https://projects.imba97.dev/zh/projects/crate-plugin-kit/): 基于 Cargo 的插件系统，可从 crates.io 安装 cdylib 插件并在运行时加载。
+- [crate-plugin-kit 架构](https://projects.imba97.dev/zh/projects/crate-plugin-kit/architecture/): crate-plugin-kit 的运行边界、包职责和设计事实。
+- [crate-plugin-kit FAQ](https://projects.imba97.dev/zh/projects/crate-plugin-kit/faq/): 关于 crate-plugin-kit 的用途、安装、运行边界和事实来源。
+- [crate-plugin-kit 快速开始](https://projects.imba97.dev/zh/projects/crate-plugin-kit/getting-started/): 从源仓库安装并运行 crate-plugin-kit，完成第一次本地验证。

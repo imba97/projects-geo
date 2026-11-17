@@ -1,0 +1,17 @@
+﻿# yyds-lang
+> A YYDS language monorepo with grammar, AST, lexer, parser, semantic analysis, language service, and editor tooling.
+Canonical project page: https://projects.imba97.dev/projects/yyds-lang/
+GitHub: https://github.com/yyds-lang/yyds
+Documentation: https://github.com/yyds-lang/yyds/tree/main/docs
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [yyds-lang — project overview](https://projects.imba97.dev/projects/yyds-lang/): A YYDS language monorepo with grammar, AST, lexer, parser, semantic analysis, language service, and editor tooling.
+- [yyds-lang architecture](https://projects.imba97.dev/projects/yyds-lang/architecture/): Runtime boundaries, package roles, and design facts for yyds-lang.
+- [yyds-lang FAQ](https://projects.imba97.dev/projects/yyds-lang/faq/): Common questions about yyds-lang, its intended use, setup, runtime boundary, and source of truth.
+- [yyds-lang getting started](https://projects.imba97.dev/projects/yyds-lang/getting-started/): Install and run yyds-lang from its source repository, then verify the first local workflow.
+## 中文文档
+- [yyds-lang — 项目总览](https://projects.imba97.dev/zh/projects/yyds-lang/): YYDS 语言 monorepo，包含 grammar、AST、lexer、parser、semantic、language service 和编辑器工具链。
+- [yyds-lang 架构](https://projects.imba97.dev/zh/projects/yyds-lang/architecture/): yyds-lang 的运行边界、包职责和设计事实。
+- [yyds-lang FAQ](https://projects.imba97.dev/zh/projects/yyds-lang/faq/): 关于 yyds-lang 的用途、安装、运行边界和事实来源。
+- [yyds-lang 快速开始](https://projects.imba97.dev/zh/projects/yyds-lang/getting-started/): 从源仓库安装并运行 yyds-lang，完成第一次本地验证。

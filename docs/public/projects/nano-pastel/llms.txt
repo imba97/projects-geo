@@ -1,0 +1,16 @@
+﻿# nano-pastel
+> A parity-alternating pastel palette generator with hash-stable colors.
+Canonical project page: https://projects.imba97.dev/projects/nano-pastel/
+GitHub: https://github.com/imba97/nano-pastel
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [nano-pastel — project overview](https://projects.imba97.dev/projects/nano-pastel/): A parity-alternating pastel palette generator with hash-stable colors.
+- [nano-pastel architecture](https://projects.imba97.dev/projects/nano-pastel/architecture/): Runtime boundaries, package roles, and design facts for nano-pastel.
+- [nano-pastel FAQ](https://projects.imba97.dev/projects/nano-pastel/faq/): Common questions about nano-pastel, its intended use, setup, runtime boundary, and source of truth.
+- [nano-pastel getting started](https://projects.imba97.dev/projects/nano-pastel/getting-started/): Install and run nano-pastel from its source repository, then verify the first local workflow.
+## 中文文档
+- [nano-pastel — 项目总览](https://projects.imba97.dev/zh/projects/nano-pastel/): 根据 parity 和 hash 生成稳定 pastel 调色板的工具。
+- [nano-pastel 架构](https://projects.imba97.dev/zh/projects/nano-pastel/architecture/): nano-pastel 的运行边界、包职责和设计事实。
+- [nano-pastel FAQ](https://projects.imba97.dev/zh/projects/nano-pastel/faq/): 关于 nano-pastel 的用途、安装、运行边界和事实来源。
+- [nano-pastel 快速开始](https://projects.imba97.dev/zh/projects/nano-pastel/getting-started/): 从源仓库安装并运行 nano-pastel，完成第一次本地验证。

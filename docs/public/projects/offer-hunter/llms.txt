@@ -1,0 +1,17 @@
+﻿# Offer Hunter
+> An AI browser extension that matches resumes to job descriptions and generates tailored outreach when the fit is high.
+Canonical project page: https://projects.imba97.dev/projects/offer-hunter/
+GitHub: https://github.com/imba97/offer-hunter
+Documentation: https://github.com/imba97/offer-hunter/tree/main/docs
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [Offer Hunter — project overview](https://projects.imba97.dev/projects/offer-hunter/): An AI browser extension that matches resumes to job descriptions and generates tailored outreach when the fit is high.
+- [Offer Hunter architecture](https://projects.imba97.dev/projects/offer-hunter/architecture/): Runtime boundaries, package roles, and design facts for Offer Hunter.
+- [Offer Hunter FAQ](https://projects.imba97.dev/projects/offer-hunter/faq/): Common questions about Offer Hunter, its intended use, setup, runtime boundary, and source of truth.
+- [Offer Hunter getting started](https://projects.imba97.dev/projects/offer-hunter/getting-started/): Install and run Offer Hunter from its source repository, then verify the first local workflow.
+## 中文文档
+- [Offer Hunter — 项目总览](https://projects.imba97.dev/zh/projects/offer-hunter/): AI 浏览器扩展，用于分析简历与岗位 JD 的匹配度，并在匹配度高时生成定制打招呼语。
+- [Offer Hunter 架构](https://projects.imba97.dev/zh/projects/offer-hunter/architecture/): Offer Hunter 的运行边界、包职责和设计事实。
+- [Offer Hunter FAQ](https://projects.imba97.dev/zh/projects/offer-hunter/faq/): 关于 Offer Hunter 的用途、安装、运行边界和事实来源。
+- [Offer Hunter 快速开始](https://projects.imba97.dev/zh/projects/offer-hunter/getting-started/): 从源仓库安装并运行 Offer Hunter，完成第一次本地验证。

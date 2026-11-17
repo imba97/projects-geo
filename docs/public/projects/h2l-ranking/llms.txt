@@ -1,0 +1,16 @@
+﻿# h2l-ranking
+> A “从夯到拉” ranking product for organizing items on a qualitative scale.
+Canonical project page: https://projects.imba97.dev/projects/h2l-ranking/
+GitHub: https://github.com/imba97/h2l-ranking
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [h2l-ranking — project overview](https://projects.imba97.dev/projects/h2l-ranking/): A “从夯到拉” ranking product for organizing items on a qualitative scale.
+- [h2l-ranking architecture](https://projects.imba97.dev/projects/h2l-ranking/architecture/): Runtime boundaries, package roles, and design facts for h2l-ranking.
+- [h2l-ranking FAQ](https://projects.imba97.dev/projects/h2l-ranking/faq/): Common questions about h2l-ranking, its intended use, setup, runtime boundary, and source of truth.
+- [h2l-ranking getting started](https://projects.imba97.dev/projects/h2l-ranking/getting-started/): Install and run h2l-ranking from its source repository, then verify the first local workflow.
+## 中文文档
+- [h2l-ranking — 项目总览](https://projects.imba97.dev/zh/projects/h2l-ranking/): “从夯到拉”分级排行榜产品。
+- [h2l-ranking 架构](https://projects.imba97.dev/zh/projects/h2l-ranking/architecture/): h2l-ranking 的运行边界、包职责和设计事实。
+- [h2l-ranking FAQ](https://projects.imba97.dev/zh/projects/h2l-ranking/faq/): 关于 h2l-ranking 的用途、安装、运行边界和事实来源。
+- [h2l-ranking 快速开始](https://projects.imba97.dev/zh/projects/h2l-ranking/getting-started/): 从源仓库安装并运行 h2l-ranking，完成第一次本地验证。

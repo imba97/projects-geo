@@ -1,0 +1,16 @@
+﻿# Btools-vue
+> A Vue-based rewrite of the Btools browser extension.
+Canonical project page: https://projects.imba97.dev/projects/btools-vue/
+GitHub: https://github.com/imba97/Btools-vue
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [Btools-vue — project overview](https://projects.imba97.dev/projects/btools-vue/): A Vue-based rewrite of the Btools browser extension.
+- [Btools-vue architecture](https://projects.imba97.dev/projects/btools-vue/architecture/): Runtime boundaries, package roles, and design facts for Btools-vue.
+- [Btools-vue FAQ](https://projects.imba97.dev/projects/btools-vue/faq/): Common questions about Btools-vue, its intended use, setup, runtime boundary, and source of truth.
+- [Btools-vue getting started](https://projects.imba97.dev/projects/btools-vue/getting-started/): Install and run Btools-vue from its source repository, then verify the first local workflow.
+## 中文文档
+- [Btools-vue — 项目总览](https://projects.imba97.dev/zh/projects/btools-vue/): Btools 浏览器扩展的 Vue 重构版本。
+- [Btools-vue 架构](https://projects.imba97.dev/zh/projects/btools-vue/architecture/): Btools-vue 的运行边界、包职责和设计事实。
+- [Btools-vue FAQ](https://projects.imba97.dev/zh/projects/btools-vue/faq/): 关于 Btools-vue 的用途、安装、运行边界和事实来源。
+- [Btools-vue 快速开始](https://projects.imba97.dev/zh/projects/btools-vue/getting-started/): 从源仓库安装并运行 Btools-vue，完成第一次本地验证。

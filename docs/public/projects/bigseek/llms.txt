@@ -1,0 +1,16 @@
+﻿# bigseek
+> A CJK-aware bigram full-text index with a native builder and WebAssembly query runtime.
+Canonical project page: https://projects.imba97.dev/projects/bigseek/
+GitHub: https://github.com/imba97/bigseek
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [bigseek — project overview](https://projects.imba97.dev/projects/bigseek/): A CJK-aware bigram full-text index with a native builder and WebAssembly query runtime.
+- [bigseek architecture](https://projects.imba97.dev/projects/bigseek/architecture/): Runtime boundaries, package roles, and design facts for bigseek.
+- [bigseek FAQ](https://projects.imba97.dev/projects/bigseek/faq/): Common questions about bigseek, its intended use, setup, runtime boundary, and source of truth.
+- [bigseek getting started](https://projects.imba97.dev/projects/bigseek/getting-started/): Install and run bigseek from its source repository, then verify the first local workflow.
+## 中文文档
+- [bigseek — 项目总览](https://projects.imba97.dev/zh/projects/bigseek/): 支持 CJK 的 bigram 全文索引，包含原生构建器和 WebAssembly 查询运行时。
+- [bigseek 架构](https://projects.imba97.dev/zh/projects/bigseek/architecture/): bigseek 的运行边界、包职责和设计事实。
+- [bigseek FAQ](https://projects.imba97.dev/zh/projects/bigseek/faq/): 关于 bigseek 的用途、安装、运行边界和事实来源。
+- [bigseek 快速开始](https://projects.imba97.dev/zh/projects/bigseek/getting-started/): 从源仓库安装并运行 bigseek，完成第一次本地验证。

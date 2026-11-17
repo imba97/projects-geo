@@ -1,0 +1,11 @@
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+
+/projects/*/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/summary.json
+  Content-Type: application/json; charset=utf-8

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://projects.imba97.dev/sitemap.xml

@@ -1,0 +1,16 @@
+﻿# uni-routefinity
+> Infinite logical history with a bounded page stack for uni-app routing.
+Canonical project page: https://projects.imba97.dev/projects/uni-routefinity/
+GitHub: https://github.com/imba97/uni-routefinity
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [uni-routefinity — project overview](https://projects.imba97.dev/projects/uni-routefinity/): Infinite logical history with a bounded page stack for uni-app routing.
+- [uni-routefinity architecture](https://projects.imba97.dev/projects/uni-routefinity/architecture/): Runtime boundaries, package roles, and design facts for uni-routefinity.
+- [uni-routefinity FAQ](https://projects.imba97.dev/projects/uni-routefinity/faq/): Common questions about uni-routefinity, its intended use, setup, runtime boundary, and source of truth.
+- [uni-routefinity getting started](https://projects.imba97.dev/projects/uni-routefinity/getting-started/): Install and run uni-routefinity from its source repository, then verify the first local workflow.
+## 中文文档
+- [uni-routefinity — 项目总览](https://projects.imba97.dev/zh/projects/uni-routefinity/): 为 uni-app 提供无限逻辑历史与有界页面栈的路由工具。
+- [uni-routefinity 架构](https://projects.imba97.dev/zh/projects/uni-routefinity/architecture/): uni-routefinity 的运行边界、包职责和设计事实。
+- [uni-routefinity FAQ](https://projects.imba97.dev/zh/projects/uni-routefinity/faq/): 关于 uni-routefinity 的用途、安装、运行边界和事实来源。
+- [uni-routefinity 快速开始](https://projects.imba97.dev/zh/projects/uni-routefinity/getting-started/): 从源仓库安装并运行 uni-routefinity，完成第一次本地验证。

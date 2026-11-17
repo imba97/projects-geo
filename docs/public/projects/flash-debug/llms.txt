@@ -1,0 +1,16 @@
+﻿# Flash Debug
+> A debugging SDK and inspector ecosystem for sending, viewing, and investigating runtime events.
+Canonical project page: https://projects.imba97.dev/projects/flash-debug/
+GitHub: https://github.com/flash-debug-js/flash-debug
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [Flash Debug — project overview](https://projects.imba97.dev/projects/flash-debug/): A debugging SDK and inspector ecosystem for sending, viewing, and investigating runtime events.
+- [Flash Debug architecture](https://projects.imba97.dev/projects/flash-debug/architecture/): Runtime boundaries, package roles, and design facts for Flash Debug.
+- [Flash Debug FAQ](https://projects.imba97.dev/projects/flash-debug/faq/): Common questions about Flash Debug, its intended use, setup, runtime boundary, and source of truth.
+- [Flash Debug getting started](https://projects.imba97.dev/projects/flash-debug/getting-started/): Install and run Flash Debug from its source repository, then verify the first local workflow.
+## 中文文档
+- [Flash Debug — 项目总览](https://projects.imba97.dev/zh/projects/flash-debug/): 用于发送、查看和分析运行时事件的调试 SDK 与 Inspector 生态。
+- [Flash Debug 架构](https://projects.imba97.dev/zh/projects/flash-debug/architecture/): Flash Debug 的运行边界、包职责和设计事实。
+- [Flash Debug FAQ](https://projects.imba97.dev/zh/projects/flash-debug/faq/): 关于 Flash Debug 的用途、安装、运行边界和事实来源。
+- [Flash Debug 快速开始](https://projects.imba97.dev/zh/projects/flash-debug/getting-started/): 从源仓库安装并运行 Flash Debug，完成第一次本地验证。

@@ -1,0 +1,16 @@
+﻿# bigseek-js
+> A browser client for Bigseek indexes with a CJK bigram tokenizer and optional MiniSearch fallback.
+Canonical project page: https://projects.imba97.dev/projects/bigseek-js/
+GitHub: https://github.com/imba97/bigseek-js
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [bigseek-js — project overview](https://projects.imba97.dev/projects/bigseek-js/): A browser client for Bigseek indexes with a CJK bigram tokenizer and optional MiniSearch fallback.
+- [bigseek-js architecture](https://projects.imba97.dev/projects/bigseek-js/architecture/): Runtime boundaries, package roles, and design facts for bigseek-js.
+- [bigseek-js FAQ](https://projects.imba97.dev/projects/bigseek-js/faq/): Common questions about bigseek-js, its intended use, setup, runtime boundary, and source of truth.
+- [bigseek-js getting started](https://projects.imba97.dev/projects/bigseek-js/getting-started/): Install and run bigseek-js from its source repository, then verify the first local workflow.
+## 中文文档
+- [bigseek-js — 项目总览](https://projects.imba97.dev/zh/projects/bigseek-js/): Bigseek 索引的浏览器客户端，提供 CJK bigram 分词和可选 MiniSearch fallback。
+- [bigseek-js 架构](https://projects.imba97.dev/zh/projects/bigseek-js/architecture/): bigseek-js 的运行边界、包职责和设计事实。
+- [bigseek-js FAQ](https://projects.imba97.dev/zh/projects/bigseek-js/faq/): 关于 bigseek-js 的用途、安装、运行边界和事实来源。
+- [bigseek-js 快速开始](https://projects.imba97.dev/zh/projects/bigseek-js/getting-started/): 从源仓库安装并运行 bigseek-js，完成第一次本地验证。

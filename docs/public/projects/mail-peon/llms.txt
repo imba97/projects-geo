@@ -1,0 +1,24 @@
+﻿# Mail Peon
+> A local-first AI mail assistant for important mail and verification codes.
+Canonical project page: https://projects.imba97.dev/projects/mail-peon/
+GitHub: https://github.com/mail-peon/mail-peon
+Status: active
+Last verified: 2026-11-17
+## English documentation
+- [Mail Peon — local-first AI mail assistant](https://projects.imba97.dev/projects/mail-peon/): Mail Peon is a Chrome and Firefox Manifest V3 extension that surfaces important mail and auto-copies verification codes.
+- [Mail Peon architecture — MV3, relay, AI, and IndexedDB](https://projects.imba97.dev/projects/mail-peon/architecture/): Mail Peon separates the MV3 background service worker, browser UI, local relay, content script, AI providers, and IndexedDB storage.
+- [Mail Peon FAQ — modes, privacy, Gmail, and IMAP](https://projects.imba97.dev/projects/mail-peon/faq/): Answers to common Mail Peon questions about browser support, mailbox providers, local storage, AI, and the IMAP relay.
+- [Mail Peon getting started — build, connect, and configure](https://projects.imba97.dev/projects/mail-peon/getting-started/): Build the Mail Peon browser extension, connect Gmail with OAuth or IMAP through a local relay, then configure an AI provider.
+- [Mail Peon privacy and security — local data, AI input, and relay trust](https://projects.imba97.dev/projects/mail-peon/privacy/): How Mail Peon stores credentials and mail locally, what an AI provider receives, and why the IMAP relay is a local trust boundary.
+- [Mail Peon providers and sync — Gmail, IMAP, cursors, and batches](https://projects.imba97.dev/projects/mail-peon/providers-and-sync/): Compare Mail Peon Gmail and IMAP connection paths and understand first sync, cursors, batching, and UIDVALIDITY behavior.
+- [Mail Peon reference — modes, settings, and message lifecycle](https://projects.imba97.dev/projects/mail-peon/reference/): A factual Mail Peon reference for modes, accounts, AI providers, prompt rules, message states, and browser UI contexts.
+- [Mail Peon troubleshooting — extension, relay, AI, and sync failures](https://projects.imba97.dev/projects/mail-peon/troubleshooting/): Resolve common Mail Peon failures involving unpacked extension loading, OAuth, the IMAP relay, AI providers, clipboard, and incremental sync.
+## 中文文档
+- [Mail Peon — 本地优先的 AI 邮件助手](https://projects.imba97.dev/zh/projects/mail-peon/): Mail Peon 是一个支持 Chrome 与 Firefox 的 Manifest V3 扩展，用于找出重要邮件并自动复制验证码。
+- [Mail Peon 架构 — MV3、中继、AI 与 IndexedDB](https://projects.imba97.dev/zh/projects/mail-peon/architecture/): Mail Peon 将 MV3 后台、浏览器 UI、本机中继、content script、AI 提供商和 IndexedDB 分开。
+- [Mail Peon FAQ — 模式、隐私、Gmail 与 IMAP](https://projects.imba97.dev/zh/projects/mail-peon/faq/): 回答 Mail Peon 关于浏览器支持、邮箱协议、本地存储、AI 和 IMAP 中继的常见问题。
+- [Mail Peon 快速开始 — 构建、接入邮箱与配置 AI](https://projects.imba97.dev/zh/projects/mail-peon/getting-started/): 构建 Mail Peon 扩展，通过 OAuth 接入 Gmail 或通过本机中继接入 IMAP，再配置 AI 提供商。
+- [Mail Peon 隐私与安全 — 本地数据、AI 输入与中继信任](https://projects.imba97.dev/zh/projects/mail-peon/privacy/): 说明 Mail Peon 如何本地存储凭据和邮件、AI 提供商收到什么，以及 IMAP 中继为什么是本地信任边界。
+- [Mail Peon 邮箱与同步 — Gmail、IMAP、游标与批次](https://projects.imba97.dev/zh/projects/mail-peon/providers-and-sync/): 对比 Mail Peon 的 Gmail 和 IMAP 连接路径，说明首次同步、游标、批量拉取和 UIDVALIDITY 行为。
+- [Mail Peon 参考手册 — 模式、设置与邮件生命周期](https://projects.imba97.dev/zh/projects/mail-peon/reference/): Mail Peon 的模式、账号、AI 提供商、提示词规则、邮件状态和浏览器 UI 上下文参考。
+- [Mail Peon 故障排查 — 扩展、中继、AI 与同步](https://projects.imba97.dev/zh/projects/mail-peon/troubleshooting/): 解决 Mail Peon 未打包扩展、OAuth、IMAP 中继、AI、剪贴板和增量同步问题。

@@ -1,0 +1,16 @@
+﻿# fs-ctx
+> A reactive file-system context library for seamless cross-process data sharing.
+Canonical project page: https://projects.imba97.dev/projects/fs-ctx/
+GitHub: https://github.com/imba97/fs-ctx
+Status: documented candidate
+Last verified: 2026-11-17
+## English documentation
+- [fs-ctx — project overview](https://projects.imba97.dev/projects/fs-ctx/): A reactive file-system context library for seamless cross-process data sharing.
+- [fs-ctx architecture](https://projects.imba97.dev/projects/fs-ctx/architecture/): Runtime boundaries, package roles, and design facts for fs-ctx.
+- [fs-ctx FAQ](https://projects.imba97.dev/projects/fs-ctx/faq/): Common questions about fs-ctx, its intended use, setup, runtime boundary, and source of truth.
+- [fs-ctx getting started](https://projects.imba97.dev/projects/fs-ctx/getting-started/): Install and run fs-ctx from its source repository, then verify the first local workflow.
+## 中文文档
+- [fs-ctx — 项目总览](https://projects.imba97.dev/zh/projects/fs-ctx/): 用于跨进程共享数据的响应式文件系统上下文库。
+- [fs-ctx 架构](https://projects.imba97.dev/zh/projects/fs-ctx/architecture/): fs-ctx 的运行边界、包职责和设计事实。
+- [fs-ctx FAQ](https://projects.imba97.dev/zh/projects/fs-ctx/faq/): 关于 fs-ctx 的用途、安装、运行边界和事实来源。
+- [fs-ctx 快速开始](https://projects.imba97.dev/zh/projects/fs-ctx/getting-started/): 从源仓库安装并运行 fs-ctx，完成第一次本地验证。
